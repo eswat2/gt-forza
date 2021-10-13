@@ -1,0 +1,36 @@
+{
+  "name": "gt-sports",
+  "version": "0.0.31",
+  "description": "prototype - simple GraphQL & REST api server with mock data...",
+  "author": "eswat2",
+  "repository": "eswat2/gt-sports",
+  "license": "MIT",
+  "main": "server.js",
+  "dependencies": {
+    "apollo-server-express": "3.4.0",
+    "axios": "0.23.0",
+    "express": "4.17.1",
+    "graphql": "15.6.1",
+    "ts-tiny-invariant": "0.0.3"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true
+  },
+  "scripts": {
+    "start": "node server",
+    "dev": "now dev",
+    "cc": "prettier --check './**/*.js'",
+    "spell": "cspell './**/*.js'",
+    "test": "echo skipping...",
+    "format": "prettier --write server.js cSpell.json",
+    "predeploy": "yarn version --patch",
+    "deploy": "vc --prod",
+    "open": "open https://gt-sports.vercel.app/graphql"
+  },
+  "devDependencies": {
+    "prettier": "2.4.1"
+  }
+}

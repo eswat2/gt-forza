@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "server.js",
+      "use": "@now/node"
+    },
+    {
+      "src": "*.html",
+      "use": "@now/static"
+    }
+  ],
+  "env": {
+    "API_HOST": "https://mock-x43.vercel.app",
+    "FH5_HOST": "https://mock-fh5.vercel.app"
+  },
+  "routes": [
+    {
+      "src": "/graphql",
+      "dest": "/server.js"
+    },
+    {
+      "src": "/",
+      "dest": "/index.html"
+    }
+  ]
+}
