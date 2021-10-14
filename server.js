@@ -90,8 +90,6 @@ const typeDefs = gql`
     make: String
     model: String
     color: String
-    racing: Boolean
-    exotic: Boolean
   }
 
   type GroupSummary {
