@@ -89,8 +89,8 @@ const typeDefs = gql`
     year: Int
     make: String
     model: String
-    color: String,
-    racing: Boolean,
+    color: String
+    racing: Boolean
     exotic: Boolean
   }
 
