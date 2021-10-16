@@ -1,6 +1,6 @@
-# gt-sports
+# gt-forza
 
-A prototype GraphQL server which uses the cars from GT Sports (video game).  A technology demonstration leveraging the node microservices model provided by ZEIT Now.
+A prototype GraphQL server which uses the cars from Forza Horizon 5 (video game).  A technology demonstration leveraging the node microservices model provided by ZEIT Now.
 
 Underneath, the resolvers use 2 different mock servers:
 
@@ -73,7 +73,7 @@ Here's the current schema:
 
 
 [eswat2-io]: https://eswat2.github.io
-[gql-io]: https://gt-sports.vercel.app/graphql
+[gql-io]: https://gt-forza.vercel.app/graphql
 [mock-fh5]: https://mock-fh5.vercel.app/api
 [mock-x43]: https://mock-x43.vercel.app/api
 
