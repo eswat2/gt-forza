@@ -863,10 +863,10 @@ tr46@~0.0.3:
   resolved "https://registry.yarnpkg.com/tr46/-/tr46-0.0.3.tgz#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
   integrity sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o=
 
-ts-tiny-invariant@2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/ts-tiny-invariant/-/ts-tiny-invariant-2.0.1.tgz#d56ff321bcd12b66e55feb3dc046527365877b2b"
-  integrity sha512-gFhqWRGhcXbGtwxN1CpL7ZwWRiaCd2kxLy9ljoVD6kKsX6XpqjBRuGtpmRn8XOh2sZxmkd0eG+ux2ia/84QOeQ==
+ts-tiny-invariant@2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/ts-tiny-invariant/-/ts-tiny-invariant-2.0.2.tgz#92350bb6749eb479c3e415343fc27c5d39055791"
+  integrity sha512-KV/Cd5lUlBnDdQpKWaVJ0CgDsC0JWYJMgIMfVoRvKXjuVfV9xAcexKSScC13s4+mx5CU9+/dhUr732wfMgHjzQ==
 
 tslib@^2.1.0, tslib@~2.4.0:
   version "2.4.0"
