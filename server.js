@@ -12,7 +12,7 @@ var { buildSchema } = require('graphql')
 
 const app = express() // define our app using express
 const bodyParser = require('body-parser')
-const axios = require('axios')
+const axios = require('axios').default
 
 // configure app to use bodyParser()
 // this will let us get the data from a POST
