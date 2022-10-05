@@ -12,7 +12,7 @@ var { buildSchema } = require('graphql')
 
 const app = express() // define our app using express
 const bodyParser = require('body-parser')
-const axios = require('axios').default
+const axios = require('axios')
 
 // configure app to use bodyParser()
 // this will let us get the data from a POST
@@ -29,12 +29,13 @@ const port = process.env.PORT || 8080 // set our port
 const API_HOST = process.env.API_HOST
 const FH5_HOST = process.env.FH5_HOST
 
-const fetchApi = (host, api, params, callback) => {
-  const url = `${host}/api/${api}`
+const fetchApi = (host, api, obj, callback) => {
+  const keys = obj ? Object.keys(obj) : []
+  const url = keys.reduce((glob, key, index) => {
+    return `${glob}${index > 0 ? '&' : '?'}${key}=${obj[key]}`
+  }, `${host}/api/${api}`)
 
-  axios.get(url, {
-    params
-  }).then(({ data }) => {
+  axios.get(url).then(({ data }) => {
     callback && callback(data)
   })
 }
