@@ -6,9 +6,12 @@
 // call the packages we need
 import express from 'express'
 import cors from 'cors'
-import invariant from 'ts-tiny-invariant'
-import { graphqlHTTP } from 'express-graphql'
+import { createHandler } from 'graphql-http/lib/use/express'
 import { buildSchema } from 'graphql'
+import * as dotenv from 'dotenv'
+dotenv.config()
+import path from "path"
+const __dirname = path.resolve();
 
 const app = express() // define our app using express
 
@@ -29,6 +32,9 @@ const port = process.env.PORT || 8080 // set our port
 
 const API_HOST = process.env.API_HOST
 const FH5_HOST = process.env.FH5_HOST
+
+console.log(API_HOST)
+console.log(FH5_HOST)
 
 // NOTE:  this seems convoluted...
 const fetchApi = async (host, api, obj, callback) => {
@@ -133,16 +139,19 @@ const resolvers = {
   },
   uuid: ({ count }) => {
     return promiseApi(API_HOST, 'uuid', { count })
-  },
+  },  
 }
 
 const startForzaServer = async () => {
+  app.get("/", (req, res) => {
+    res.sendFile(__dirname + "/index.html");
+  });
+
   app.use(
     '/graphql',
-    graphqlHTTP({
+    createHandler({
       schema: schema,
       rootValue: resolvers,
-      graphiql: true,
     })
   )
 
@@ -164,7 +173,7 @@ const startForzaServer = async () => {
   // =============================================================================
   await new Promise((resolve) => app.listen({ port }, resolve))
 
-  console.log(`🚀 Server ready at http://localhost:${port}/graphql`)
+  console.log(`🚀 Server ready at http://localhost:${port}`)
 }
 
 startForzaServer()
