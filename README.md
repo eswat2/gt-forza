@@ -18,7 +18,7 @@ The `now dev` command allows you to test the ZEIT Now app locally.
 
 ## graphql
 
-- [/graphql][gql-io] - _the playground_
+> this version doesn't support a playground...
 
 Here's the current schema:
 
