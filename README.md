@@ -1,6 +1,6 @@
 # gt-forza
 
-A prototype GraphQL server which uses the cars from Forza Horizon 5 (video game).  A technology demonstration leveraging the node microservices model provided by ZEIT Now.
+A prototype GraphQL server which uses the cars from Forza Horizon 5 (video game).  A technology demonstration leveraging the node microservices model provided by Vercel.
 
 Underneath, the resolvers use 2 different mock servers:
 
@@ -12,13 +12,12 @@ Underneath, the resolvers use 2 different mock servers:
 To try this locally, run the following:
 
 1. `yarn`
-2. `now dev`
+2. `yarn start`
 
-The `now dev` command allows you to test the ZEIT Now app locally.
 
 ## graphql
 
-> this version doesn't support a playground...
+> this version doesn't support a built-in playground...
 
 Here's the current schema:
 
@@ -65,6 +64,11 @@ Here's the current schema:
   }
 ```
 
+## references
+
+- [graphql-http][gqh-io] -- _Simple, pluggable, zero-dependency, GraphQL over HTTP spec compliant server, client and audit suite._
+- [graphql-playground][gqp-io] -- _GraphQL IDE for better development workflows._
+
 ## who
 
 - Richard Hess
@@ -73,6 +77,8 @@ Here's the current schema:
 
 
 [eswat2-io]: https://eswat2.github.io
+[gqh-io]: https://github.com/graphql/graphql-http
+[gqp-io]: https://github.com/graphql/graphql-playground
 [gql-io]: https://gt-forza.vercel.app/graphql
 [mock-fh5]: https://mock-fh5.vercel.app/api
 [mock-x43]: https://mock-x43.vercel.app/api
