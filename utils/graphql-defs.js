@@ -1,34 +1,7 @@
-// server.js
+// graphql-defs.js
 
-// BASE SETUP
-// =============================================================================
-
-// call the packages we need
-import express from 'express'
-import cors from 'cors'
-import { createHandler } from 'graphql-http/lib/use/express'
 import { buildSchema } from 'graphql'
-import * as dotenv from 'dotenv'
-dotenv.config()
-import path from "path"
-const __dirname = path.resolve();
-
-const app = express() // define our app using express
-
-import bodyParser from 'body-parser'
 import got from 'got'
-
-// configure app to use bodyParser()
-// this will let us get the data from a POST
-app.use(bodyParser.urlencoded({ extended: true }))
-app.use(bodyParser.json())
-
-// app.use(express.static('public'))
-
-// configure app to use CORS
-app.use(cors())
-
-const port = process.env.PORT || 8080 // set our port
 
 const API_HOST = process.env.API_HOST
 const FH5_HOST = process.env.FH5_HOST
@@ -142,38 +115,4 @@ const resolvers = {
   },  
 }
 
-const startForzaServer = async () => {
-  app.get("/", (req, res) => {
-    res.sendFile(__dirname + "/index.html");
-  });
-
-  app.use(
-    '/graphql',
-    createHandler({
-      schema: schema,
-      rootValue: resolvers,
-    })
-  )
-
-  // REGISTER OUR ERROR HANDLERS -----------------------
-  const logErrors = (err, req, res, next) => {
-    console.log('-- ERROR')
-    console.error(err.stack)
-    next(err)
-  }
-
-  const errorHandler = (err, req, res, next) => {
-    res.status(500).send({ error: 'Something failed!...' })
-  }
-
-  app.use(logErrors)
-  app.use(errorHandler)
-
-  // START THE SERVER
-  // =============================================================================
-  await new Promise((resolve) => app.listen({ port }, resolve))
-
-  console.log(`🚀 Server ready at http://localhost:${port}`)
-}
-
-startForzaServer()
+export { schema, resolvers }

@@ -1,16 +1,12 @@
 {
-  "name": "gt-sports",
+  "name": "gt-forza",
   "version": "0.0.121",
   "description": "prototype - simple GraphQL & REST api server with mock data...",
   "author": "eswat2",
-  "repository": "eswat2/gt-sports",
+  "repository": "eswat2/gt-forza",
   "license": "MIT",
-  "main": "server.js",
   "type": "module",
   "dependencies": {
-    "cors": "2.8.5",
-    "dotenv": "16.0.3",
-    "express": "4.18.2",
     "got": "12.6.0",
     "graphql": "16.6.0",
     "graphql-http": "1.18.0"
@@ -22,7 +18,6 @@
     "singleQuote": true
   },
   "scripts": {
-    "start": "node server",
     "dev": "vc dev",
     "cc": "prettier --check './**/*.js'",
     "spell": "cspell './**/*.js'",
