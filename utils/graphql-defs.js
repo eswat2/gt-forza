@@ -6,8 +6,8 @@ import got from 'got'
 const API_HOST = process.env.API_HOST
 const FH5_HOST = process.env.FH5_HOST
 
-console.log(API_HOST)
-console.log(FH5_HOST)
+// console.log(API_HOST)
+// console.log(FH5_HOST)
 
 // NOTE:  this seems convoluted...
 const fetchApi = async (host, api, obj, callback) => {
