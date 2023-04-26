@@ -1,6 +1,6 @@
 # gt-forza
 
-A prototype GraphQL server which uses the cars from Forza Horizon 5 (video game).  A technology demonstration leveraging the edge function model provided by Vercel.
+A prototype GraphQL server which uses the cars from Forza Horizon 5 (video game).  A technology demonstration built on the Vercel [Serverless Functions][edge-io].
 
 Underneath, the resolvers use 2 different mock servers:
 
@@ -68,6 +68,7 @@ Here's the current schema:
 
 - [graphql-http][gqh-io] -- _Simple, pluggable, zero-dependency, GraphQL over HTTP spec compliant server, client and audit suite._
 - [graphql-playground][gqp-io] -- _GraphQL IDE for better development workflows._
+- Guide -- [How can I enable CORS on Vercel?][add-cors]
 
 ## who
 
@@ -82,5 +83,7 @@ Here's the current schema:
 [gql-io]: https://gt-forza.vercel.app/graphql
 [mock-fh5]: https://mock-fh5.vercel.app/api
 [mock-x43]: https://mock-x43.vercel.app/api
+[add-cors]: https://vercel.com/guides/how-to-enable-cors
+[edge-io]: https://vercel.com/docs/concepts/functions/serverless-functions
 
 
