@@ -1,6 +1,6 @@
 # gt-forza
 
-A prototype GraphQL server which uses the cars from Forza Horizon 5 (video game).  A technology demonstration leveraging the node microservices model provided by Vercel.
+A prototype GraphQL server which uses the cars from Forza Horizon 5 (video game).  A technology demonstration leveraging the edge function model provided by Vercel.
 
 Underneath, the resolvers use 2 different mock servers:
 
@@ -12,7 +12,7 @@ Underneath, the resolvers use 2 different mock servers:
 To try this locally, run the following:
 
 1. `yarn`
-2. `yarn start`
+2. `yarn dev`
 
 
 ## graphql
