@@ -8,8 +8,8 @@
   "type": "module",
   "dependencies": {
     "got": "13.0.0",
-    "graphql": "16.6.0",
-    "graphql-http": "1.19.0"
+    "graphql": "16.7.1",
+    "graphql-http": "1.20.0"
   },
   "prettier": {
     "trailingComma": "es5",
@@ -28,6 +28,6 @@
     "open": "open https://gt-forza.vercel.app/graphql"
   },
   "devDependencies": {
-    "prettier": "2.8.8"
+    "prettier": "3.0.0"
   }
 }
