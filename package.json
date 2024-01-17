@@ -28,6 +28,6 @@
     "open": "open https://gt-forza.vercel.app/graphql"
   },
   "devDependencies": {
-    "prettier": "3.2.2"
+    "prettier": "3.2.4"
   }
 }
