@@ -84,10 +84,10 @@ got@14.4.4:
     responselike "^3.0.0"
     type-fest "^4.26.1"
 
-graphql-http@1.22.1:
-  version "1.22.1"
-  resolved "https://registry.yarnpkg.com/graphql-http/-/graphql-http-1.22.1.tgz#3857ac75366e55db189cfe09ade9cc4c4f2cfd09"
-  integrity sha512-4Jor+LRbA7SfSaw7dfDUs2UBzvWg3cKrykfHRgKsOIvQaLuf+QOcG2t3Mx5N9GzSNJcuqMqJWz0ta5+BryEmXg==
+graphql-http@1.22.2:
+  version "1.22.2"
+  resolved "https://registry.yarnpkg.com/graphql-http/-/graphql-http-1.22.2.tgz#20ddb600c8a95abe8dbae2a4f869df6f829787f1"
+  integrity sha512-OpUJJoefHlyfYoOyhzIVjKxFPIDylmX34wy2y8M/i9i+DcQTGYmuThLGenuS92tFRzJnAXO2HJYQoz8O9TLcEg==
 
 graphql@16.9.0:
   version "16.9.0"
