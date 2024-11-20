@@ -84,10 +84,10 @@ got@14.4.4:
     responselike "^3.0.0"
     type-fest "^4.26.1"
 
-graphql-http@1.22.2:
-  version "1.22.2"
-  resolved "https://registry.yarnpkg.com/graphql-http/-/graphql-http-1.22.2.tgz#20ddb600c8a95abe8dbae2a4f869df6f829787f1"
-  integrity sha512-OpUJJoefHlyfYoOyhzIVjKxFPIDylmX34wy2y8M/i9i+DcQTGYmuThLGenuS92tFRzJnAXO2HJYQoz8O9TLcEg==
+graphql-http@1.22.3:
+  version "1.22.3"
+  resolved "https://registry.yarnpkg.com/graphql-http/-/graphql-http-1.22.3.tgz#5da03ee564b847e585fa08e326a50dbd4c8fbc0a"
+  integrity sha512-sgUz/2DZt+QvY6WrpAsAXUvhnIkp2eX9jN78V8DAtFcpZi/nfDrzDt2byYjyoJzRcWuqhE0K63g1QMewt73U6A==
 
 graphql@16.9.0:
   version "16.9.0"
@@ -172,6 +172,6 @@ responselike@^3.0.0:
     lowercase-keys "^3.0.0"
 
 type-fest@^4.26.1:
-  version "4.26.1"
-  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.26.1.tgz#a4a17fa314f976dd3e6d6675ef6c775c16d7955e"
-  integrity sha512-yOGpmOAL7CkKe/91I5O3gPICmJNLJ1G4zFYVAsRHg7M64biSnPtRj0WNQt++bRkjYOqjWXrhnUw1utzmVErAdg==
+  version "4.27.0"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.27.0.tgz#57329aae32e7b27b942b961e3ef861f0873c4b1b"
+  integrity sha512-3IMSWgP7C5KSQqmo1wjhKrwsvXAtF33jO3QY+Uy++ia7hqvgSK6iXbbg5PbDBc1P2ZbNEDgejOrN4YooXvhwCw==
