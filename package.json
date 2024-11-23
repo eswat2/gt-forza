@@ -7,7 +7,7 @@
   "license": "MIT",
   "type": "module",
   "dependencies": {
-    "got": "14.4.4",
+    "got": "14.4.5",
     "graphql": "16.9.0",
     "graphql-http": "1.22.3"
   },
