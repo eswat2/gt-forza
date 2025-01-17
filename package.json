@@ -9,7 +9,7 @@
   "dependencies": {
     "got": "14.4.5",
     "graphql": "16.10.0",
-    "graphql-http": "1.22.3"
+    "graphql-http": "1.22.4"
   },
   "prettier": {
     "trailingComma": "es5",
