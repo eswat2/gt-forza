@@ -1,7 +1,7 @@
 FROM node:22
 
 # Create app directory
-WORKDIR /usr/src/bff
+WORKDIR /bff
 
 # Install app dependencies
 COPY package.json ./
