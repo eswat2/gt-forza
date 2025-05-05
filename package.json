@@ -6,6 +6,9 @@
   "repository": "eswat2/gt-forza",
   "license": "MIT",
   "type": "module",
+  "engines": {
+    "node": "22.x"
+  },
   "dependencies": {
     "got": "14.4.7",
     "graphql": "16.11.0",
