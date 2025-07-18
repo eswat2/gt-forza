@@ -33,6 +33,6 @@
   "devDependencies": {
     "env-cmd": "10.1.0",
     "prettier": "3.6.2",
-    "vercel": "44.4.3"
+    "vercel": "44.5.0"
   }
 }
