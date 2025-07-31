@@ -271,10 +271,10 @@
   resolved "https://registry.yarnpkg.com/@vercel/go/-/go-3.2.2.tgz#88095e1c403955b446c971cce4d1036e44f475d8"
   integrity sha512-yYIU3OXkuoxzr47vf+HZnVGujzkVW/e5hrUK0jzCzzmjgo4+5ECrXDSA1bTB6qmWEy6HVsSovnKoHkwDqNIN6Q==
 
-"@vercel/hono@0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@vercel/hono/-/hono-0.0.4.tgz#61833e3ef40e47e0ec4eb879ec0ac72321cd05c6"
-  integrity sha512-seH+eaHEooC8EWVKGRtPtFMrl7n2dvO1OJ3YCt1Fou6tRBfi4spErGs2sdC4raogAWO645BK2bepH5Fo/wJFZw==
+"@vercel/hono@0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@vercel/hono/-/hono-0.0.5.tgz#9a9264f7de2f8d0eb853691169b4cf74f584c55f"
+  integrity sha512-y+bmKJq9OcSMwtGbvpzXCIrwPrM1t3XkDQMo9KamVtDF9qK3V8NteX09wBeEZzObovFkfUwhneOth1HUVhqC0w==
   dependencies:
     "@vercel/node" "5.3.7"
     "@vercel/static-config" "3.1.1"
@@ -288,10 +288,10 @@
     "@vercel/static-config" "3.1.1"
     ts-morph "12.0.0"
 
-"@vercel/next@4.10.8":
-  version "4.10.8"
-  resolved "https://registry.yarnpkg.com/@vercel/next/-/next-4.10.8.tgz#41d69a0b46626aaab1d40d38ab376d6a0160a7b6"
-  integrity sha512-2con6J6uj4IAs+3SU55ZjH6flskDpi6zCRH4XmfnR0SUrsGiy6hmDbZAvfJnSHKxLFQpmP0+cn5XC+hoUAUQLg==
+"@vercel/next@4.10.9":
+  version "4.10.9"
+  resolved "https://registry.yarnpkg.com/@vercel/next/-/next-4.10.9.tgz#d09d5620c62a4748c83aae2933e4f0d950c6ef51"
+  integrity sha512-QtXJaOl2GyDYac3Bzgt6YqYgBb90KG5fLC4D2dC9KAxq2NNBt7y8yEakaWYrIyXCw0bhyX/TjcYf7VneIrHVpg==
   dependencies:
     "@vercel/nft" "0.29.2"
 
@@ -1764,18 +1764,18 @@ v8-compile-cache-lib@^3.0.1:
   resolved "https://registry.yarnpkg.com/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz#6336e8d71965cb3d35a1bbb7868445a7c05264bf"
   integrity sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==
 
-vercel@44.6.4:
-  version "44.6.4"
-  resolved "https://registry.yarnpkg.com/vercel/-/vercel-44.6.4.tgz#7fb7d4e992a2b54b078500f857204e03c4cc4409"
-  integrity sha512-BfZelATWvXMhjta0LgaUU+HTB3YOk1a3iCuRkJwPDRB8SIKjCgIJSRNA3lzW/sDswpVGb3ZxWo4HLp9TYERM1w==
+vercel@44.6.5:
+  version "44.6.5"
+  resolved "https://registry.yarnpkg.com/vercel/-/vercel-44.6.5.tgz#84354f21165f772d1f46c0a51f7ad6e639fcdde8"
+  integrity sha512-a5fJkYbWEVUgzxPU9depZlWZir/8PAPo4pHCzykQ6NAubNSWmYZE0rZBYrw+jSAhzGJKdbS0ATVbti1MF/e/xA==
   dependencies:
     "@vercel/blob" "1.0.2"
     "@vercel/build-utils" "11.0.0"
     "@vercel/fun" "1.1.6"
     "@vercel/go" "3.2.2"
-    "@vercel/hono" "0.0.4"
+    "@vercel/hono" "0.0.5"
     "@vercel/hydrogen" "1.2.3"
-    "@vercel/next" "4.10.8"
+    "@vercel/next" "4.10.9"
     "@vercel/node" "5.3.7"
     "@vercel/python" "5.0.0"
     "@vercel/redwood" "2.3.4"
