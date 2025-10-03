@@ -119,9 +119,9 @@
     tar "^7.4.0"
 
 "@napi-rs/wasm-runtime@^1.0.3":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@napi-rs/wasm-runtime/-/wasm-runtime-1.0.5.tgz#1fc8952d993d476c9e57999a3b886239119ce476"
-  integrity sha512-TBr9Cf9onSAS2LQ2+QHx6XcC6h9+RIzJgbqG3++9TUZSH204AwEy5jg3BTQ0VATsyoGj4ee49tN/y6rvaOOtcg==
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@napi-rs/wasm-runtime/-/wasm-runtime-1.0.6.tgz#ba6cf875b7bf96052d0de29a91b029c94c6e9a48"
+  integrity sha512-DXj75ewm11LIWUk198QSKUTxjyRjsBwk09MuMk5DGK+GDUtyPhhEHOGP/Xwwj3DjQXXkivoBirmOnKrLfc0+9g==
   dependencies:
     "@emnapi/core" "^1.5.0"
     "@emnapi/runtime" "^1.5.0"
@@ -498,10 +498,10 @@
     typescript "4.9.5"
     undici "5.28.4"
 
-"@vercel/python@5.0.6":
-  version "5.0.6"
-  resolved "https://registry.yarnpkg.com/@vercel/python/-/python-5.0.6.tgz#d38eab7b186dcdf9833eadff3c7a4fd636bf1539"
-  integrity sha512-JWOpsoZu4XvOcKnPt7ytOiJOSeY74vWK68TLN87RJM/uHf9MnPVB9wiuj7EzB+jyZbeO7aY9Kycy6zW4tAdAwA==
+"@vercel/python@5.0.7":
+  version "5.0.7"
+  resolved "https://registry.yarnpkg.com/@vercel/python/-/python-5.0.7.tgz#aaa89c829db1032ce815be64b90284f533446322"
+  integrity sha512-hswxQErqha3aLxPqdisPEN2WpN422OMbxK1O2DA8saPi1opRh1SjD9kFaPu74iY9H0lIjN+evQpBVeCFmn6n2g==
 
 "@vercel/redwood@2.3.6":
   version "2.3.6"
@@ -1969,10 +1969,10 @@ v8-compile-cache-lib@^3.0.1:
   resolved "https://registry.yarnpkg.com/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz#6336e8d71965cb3d35a1bbb7868445a7c05264bf"
   integrity sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==
 
-vercel@48.1.7:
-  version "48.1.7"
-  resolved "https://registry.yarnpkg.com/vercel/-/vercel-48.1.7.tgz#be83f74251c902cec876070abb3e23f62ccb4222"
-  integrity sha512-X9FexPHqnaV5KpNejtRnEjmkD5iBXFuQ+H6ijNwA7l0HG7emorMxStQ+122knyXkImGRX5Xb/hWeGp+MZBr5dg==
+vercel@48.2.0:
+  version "48.2.0"
+  resolved "https://registry.yarnpkg.com/vercel/-/vercel-48.2.0.tgz#898fb246d12fbc65f28afcc4bdec0c7f9d4dfffd"
+  integrity sha512-TwzIEm5pYB9J2ZwfZbiET3BTaV5eaW8zxvEmWyua6dTPo42TVz7IfQjume8wo6CrzZ2ru0W/ti/Ydsmf7g4jeA==
   dependencies:
     "@vercel/blob" "1.0.2"
     "@vercel/build-utils" "12.1.0"
@@ -1985,7 +1985,7 @@ vercel@48.1.7:
     "@vercel/hydrogen" "1.2.4"
     "@vercel/next" "4.13.0"
     "@vercel/node" "5.3.24"
-    "@vercel/python" "5.0.6"
+    "@vercel/python" "5.0.7"
     "@vercel/redwood" "2.3.6"
     "@vercel/remix-builder" "5.4.12"
     "@vercel/ruby" "2.2.1"
