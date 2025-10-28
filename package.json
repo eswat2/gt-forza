@@ -10,7 +10,7 @@
     "node": "22.x"
   },
   "dependencies": {
-    "got": "14.4.9",
+    "got": "14.6.1",
     "graphql": "16.11.0",
     "graphql-http": "1.22.4"
   },
@@ -33,6 +33,6 @@
   "devDependencies": {
     "env-cmd": "11.0.0",
     "prettier": "3.6.2",
-    "vercel": "48.2.5"
+    "vercel": "48.6.5"
   }
 }
