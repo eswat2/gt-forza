@@ -42,17 +42,17 @@
     "@edge-runtime/primitives" "4.1.0"
 
 "@emnapi/core@^1.5.0":
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/@emnapi/core/-/core-1.7.0.tgz#135de4e8858763989112281bdf38ca02439db7c3"
-  integrity sha512-pJdKGq/1iquWYtv1RRSljZklxHCOCAJFJrImO5ZLKPJVJlVUcs8yFwNQlqS0Lo8xT1VAXXTCZocF9n26FWEKsw==
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/@emnapi/core/-/core-1.7.1.tgz#3a79a02dbc84f45884a1806ebb98e5746bdfaac4"
+  integrity sha512-o1uhUASyo921r2XtHYOHy7gdkGLge8ghBEQHMWmyJFoXlpU58kIrhhN3w26lpQb6dspetweapMn2CSNwQ8I4wg==
   dependencies:
     "@emnapi/wasi-threads" "1.1.0"
     tslib "^2.4.0"
 
 "@emnapi/runtime@^1.5.0":
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/@emnapi/runtime/-/runtime-1.7.0.tgz#d7ef3832df8564fe5903bf0567aedbd19538ecbe"
-  integrity sha512-oAYoQnCYaQZKVS53Fq23ceWMRxq5EhQsE0x0RdQ55jT7wagMu5k+fS39v1fiSLrtrLQlXwVINenqhLMtTrV/1Q==
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/@emnapi/runtime/-/runtime-1.7.1.tgz#a73784e23f5d57287369c808197288b52276b791"
+  integrity sha512-PVtJr5CmLwYAU9PZDMITZoR5iAOShYREoR45EyyLrbntV50mdePTgUn4AmOw90Ifcj+x2kRjdzr1HP3RrNiHGA==
   dependencies:
     tslib "^2.4.0"
 
@@ -669,10 +669,10 @@
     typescript5 "npm:typescript@5.9.3"
     undici "5.28.4"
 
-"@vercel/python@6.0.4":
-  version "6.0.4"
-  resolved "https://registry.yarnpkg.com/@vercel/python/-/python-6.0.4.tgz#72ab174aa04facf53ff58c6d5c1ae15e0d1b1a54"
-  integrity sha512-nJzQ8UVlq6HGytZWsDfWIP5el1nmGr88Q9l8a0P/H6GtAULcQkyKm0d/4rqrBARwaZkcDwhEOHOM6gfNw9splw==
+"@vercel/python@6.0.5":
+  version "6.0.5"
+  resolved "https://registry.yarnpkg.com/@vercel/python/-/python-6.0.5.tgz#fdacc72e8f063b3e140451286e0b7da8ed02bd2b"
+  integrity sha512-c1rrkkYn+eOw8boPTjh6f2T+RPzdKRfYjcCd4Pu3yn6i9j3dlu6kaJT2SCPHCRdhJyAKVL0jGJ313itVG/CFgQ==
 
 "@vercel/redwood@2.4.2":
   version "2.4.2"
@@ -1379,10 +1379,10 @@ glob@^10.4.5:
     package-json-from-dist "^1.0.0"
     path-scurry "^1.11.1"
 
-got@14.6.3:
-  version "14.6.3"
-  resolved "https://registry.yarnpkg.com/got/-/got-14.6.3.tgz#f50d61c77268d394b59b8e93364de6425190e812"
-  integrity sha512-u1nNamHo7oAkyTkMD7g0F0pIvW6vNAF9CCmtkh8ZQrlToKJZ5wEPQHFqt6RzaZC0rJMzH+rnjIElyTsIkT0wQw==
+got@14.6.4:
+  version "14.6.4"
+  resolved "https://registry.yarnpkg.com/got/-/got-14.6.4.tgz#fe86680cc2d8e9df7162ebcd39c277c4ff6cf2cb"
+  integrity sha512-DjsLab39NUMf5iYlK9asVCkHMhaA2hEhrlmf+qXRhjEivuuBHWYbjmty9DA3OORUwZgENTB+6vSmY2ZW8gFHVw==
   dependencies:
     "@sindresorhus/is" "^7.0.1"
     byte-counter "^0.1.0"
@@ -2299,10 +2299,10 @@ v8-compile-cache-lib@^3.0.1:
   resolved "https://registry.yarnpkg.com/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz#6336e8d71965cb3d35a1bbb7868445a7c05264bf"
   integrity sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==
 
-vercel@48.10.0:
-  version "48.10.0"
-  resolved "https://registry.yarnpkg.com/vercel/-/vercel-48.10.0.tgz#b468d55c3fa0db04172330ac4dd8cbf1d77b937b"
-  integrity sha512-Ogo8vcYmmTI8ibEnjpUm/ZbTZtnxd5I4VLuJCxWBh0OgdEBYgZ2WE3NQEd0pyCh8Pq66ZOQOy20Szkrk3Cp+uw==
+vercel@48.10.1:
+  version "48.10.1"
+  resolved "https://registry.yarnpkg.com/vercel/-/vercel-48.10.1.tgz#140d69843369095245c6552c96dd963e39515e43"
+  integrity sha512-mbIgccP6UlZ9TfKJlV90gYqroBzOFPTWusp1a7pHJYl3DGHOIHblmz6moBdvSRVW2Yq5CjEveHDGnrAeHm7sgg==
   dependencies:
     "@vercel/backends" "0.0.7"
     "@vercel/blob" "1.0.2"
@@ -2318,7 +2318,7 @@ vercel@48.10.0:
     "@vercel/hydrogen" "1.3.2"
     "@vercel/next" "4.15.3"
     "@vercel/node" "5.5.6"
-    "@vercel/python" "6.0.4"
+    "@vercel/python" "6.0.5"
     "@vercel/redwood" "2.4.2"
     "@vercel/remix-builder" "5.5.2"
     "@vercel/ruby" "2.2.2"
