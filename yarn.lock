@@ -566,7 +566,7 @@
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-1.0.8.tgz#958b91c991b1867ced318bedea0e215ee050726e"
   integrity sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==
 
-"@types/http-cache-semantics@^4.0.4":
+"@types/http-cache-semantics@4.0.4":
   version "4.0.4"
   resolved "https://registry.yarnpkg.com/@types/http-cache-semantics/-/http-cache-semantics-4.0.4.tgz#b979ebad3919799c979b17c72621c0bc0a31c6c4"
   integrity sha512-1m0bIFVc7eJWyve9S0RnuRgcQqF/Xd5QsUZAZeQFr1Q3/p9JWoQQEqmVy+DPTNpGXwhgIetAoYF8JSc33q29QA==
@@ -581,13 +581,13 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-16.18.11.tgz#cbb15c12ca7c16c85a72b6bdc4d4b01151bb3cae"
   integrity sha512-3oJbGBUWuS6ahSnEq1eN2XrCyf4YsWI8OyCvo7c64zQJNplk3mO84t53o8lfTk+2ji59g5ycfc6qQ3fdHliHuA==
 
-"@vercel/backends@0.0.15":
-  version "0.0.15"
-  resolved "https://registry.yarnpkg.com/@vercel/backends/-/backends-0.0.15.tgz#ed1710506a85b58d1de5e9d23b3529484e54db90"
-  integrity sha512-pmjM8pYd4X0fE6mOF5mH9QDNurKW73CEQqnQExAMBkuSOjajb36oa/4kBQR4l0dGj6RRBPPkIb+b2o6gZjJccQ==
+"@vercel/backends@0.0.16":
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/@vercel/backends/-/backends-0.0.16.tgz#3fdf1f21c8f80643e0175a95e5c1f780fe95c003"
+  integrity sha512-095BFSnUFu3Glrf6D2VFWBQ1Klu0ZdoVSuBUQ+OjklSWmi3eB0qxD8mtKEncljFZk34qqpgKXatsw7vn4wqRfg==
   dependencies:
     "@vercel/cervel" "0.0.6"
-    "@vercel/introspection" "0.0.6"
+    "@vercel/introspection" "0.0.7"
     "@vercel/nft" "1.1.1"
     "@vercel/static-config" "3.1.2"
     fs-extra "11.1.0"
@@ -737,10 +737,10 @@
     "@vercel/static-config" "3.1.2"
     ts-morph "12.0.0"
 
-"@vercel/introspection@0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@vercel/introspection/-/introspection-0.0.6.tgz#5a069172b831055858e92cd7db9cc82b958dcd5b"
-  integrity sha512-eWaw2rMrDo5xsivRw3Cd0izj9q0WBoL3Xc8wJIxhUTn+TFo18mZqzMPHIG//NebAKgVTxppe19kyvvHvPGFTyg==
+"@vercel/introspection@0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@vercel/introspection/-/introspection-0.0.7.tgz#2cf5a6c4895d1e870ba0e62bd4e9118cf296cae8"
+  integrity sha512-8JjxYqUsdxHaExbUANvGftAJeRTxVGYwTmaV9KcOA+C3SVvYSUertnQeTgKiau0Fc2cHmxh9e0poLxs2N3gZ2A==
   dependencies:
     path-to-regexp "8.3.0"
     zod "3.22.4"
@@ -998,17 +998,17 @@ cacheable-lookup@^7.0.0:
   integrity sha512-+qJyx4xiKra8mZrcwhjMRMUhD5NR1R8esPkzIYxX96JiecFoxAXFuz/GpR3+ev4PE1WamHip78wV0vcmPQtp8w==
 
 cacheable-request@^13.0.12:
-  version "13.0.15"
-  resolved "https://registry.yarnpkg.com/cacheable-request/-/cacheable-request-13.0.15.tgz#436c6a165bec922c7ad1ad9dba499bc1733931bd"
-  integrity sha512-NjiSrjv37X73FmGGU5ec/M83vWQ6q1Ae3BFe+ABfdeeMy4LOMKYTpfEjrBnLedu43clKZtsYbKrHTIQE7vKq+A==
+  version "13.0.16"
+  resolved "https://registry.yarnpkg.com/cacheable-request/-/cacheable-request-13.0.16.tgz#e92eb79b4b8d5f1f77e82b61dadbadade603e2ed"
+  integrity sha512-qwRRfUu3bPhPEgKoLAXpYJfm1E2VuHT4DCzl579k2ODyFG+43jv3iMi2wbHlreIZR3+9Sp1lp4fsaXZ9VIlmzA==
   dependencies:
-    "@types/http-cache-semantics" "^4.0.4"
-    get-stream "^9.0.1"
-    http-cache-semantics "^4.2.0"
-    keyv "^5.5.4"
-    mimic-response "^4.0.0"
-    normalize-url "^8.1.0"
-    responselike "^4.0.2"
+    "@types/http-cache-semantics" "4.0.4"
+    get-stream "9.0.1"
+    http-cache-semantics "4.2.0"
+    keyv "5.5.4"
+    mimic-response "4.0.0"
+    normalize-url "8.1.0"
+    responselike "4.0.2"
 
 chokidar@4.0.0:
   version "4.0.0"
@@ -1467,6 +1467,14 @@ generic-pool@3.4.2:
   resolved "https://registry.yarnpkg.com/generic-pool/-/generic-pool-3.4.2.tgz#92ff7196520d670839a67308092a12aadf2f6a59"
   integrity sha512-H7cUpwCQSiJmAHM4c/aFu6fUfrhWXW1ncyh8ftxEPMu6AiYkHw9K8br720TGPZJbk5eOH2bynjZD1yPvdDAmag==
 
+get-stream@9.0.1:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-9.0.1.tgz#95157d21df8eb90d1647102b63039b1df60ebd27"
+  integrity sha512-kVCxPF3vQM/N0B1PmoqVUqgHP+EeVjmZSQn+1oCRPxd2P21P2F19lIgbR3HBosbB1PUhOAoctJnfEn2GbN2eZA==
+  dependencies:
+    "@sec-ant/readable-stream" "^0.4.1"
+    is-stream "^4.0.1"
+
 get-stream@^5.0.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-5.2.0.tgz#4966a1795ee5ace65e706c4b7beb71257d6e22d3"
@@ -1478,14 +1486,6 @@ get-stream@^6.0.0:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-6.0.1.tgz#a262d8eef67aced57c2852ad6167526a43cbf7b7"
   integrity sha512-ts6Wi+2j3jQjqi70w5AlN8DFnkSwC+MqmxEzdEALB2qXZYV3X/b1CTfgPLGJNMeAWxdPfU8FO1ms3NUfaHCPYg==
-
-get-stream@^9.0.1:
-  version "9.0.1"
-  resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-9.0.1.tgz#95157d21df8eb90d1647102b63039b1df60ebd27"
-  integrity sha512-kVCxPF3vQM/N0B1PmoqVUqgHP+EeVjmZSQn+1oCRPxd2P21P2F19lIgbR3HBosbB1PUhOAoctJnfEn2GbN2eZA==
-  dependencies:
-    "@sec-ant/readable-stream" "^0.4.1"
-    is-stream "^4.0.1"
 
 get-tsconfig@^4.7.5:
   version "4.13.0"
@@ -1543,7 +1543,7 @@ graphql@16.12.0:
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.12.0.tgz#28cc2462435b1ac3fdc6976d030cef83a0c13ac7"
   integrity sha512-DKKrynuQRne0PNpEbzuEdHlYOMksHSUI8Zc9Unei5gTsMNA2/vMpoMz/yKba50pejK56qj98qM0SjYxAKi13gQ==
 
-http-cache-semantics@^4.2.0:
+http-cache-semantics@4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/http-cache-semantics/-/http-cache-semantics-4.2.0.tgz#205f4db64f8562b76a4ff9235aa5279839a09dd5"
   integrity sha512-dTxcvPXqPvXBQpq5dUr6mEMJX4oIEFv6bwom3FDwKRDsuIjjJGANqhBuoAn9c1RQJIdAKav33ED65E2ys+87QQ==
@@ -1684,7 +1684,14 @@ jsonfile@^6.0.1:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
-keyv@^5.5.3, keyv@^5.5.4:
+keyv@5.5.4:
+  version "5.5.4"
+  resolved "https://registry.yarnpkg.com/keyv/-/keyv-5.5.4.tgz#0f26a32183a5058f93fc6e02ced6318f66e8a9ea"
+  integrity sha512-eohl3hKTiVyD1ilYdw9T0OiB4hnjef89e3dMYKz+mVKDzj+5IteTseASUsOB+EU9Tf6VNTCjDePcP6wkDGmLKQ==
+  dependencies:
+    "@keyv/serialize" "^1.1.1"
+
+keyv@^5.5.3:
   version "5.5.5"
   resolved "https://registry.yarnpkg.com/keyv/-/keyv-5.5.5.tgz#a975b32fc03e300a0e443c705b103d8b05220834"
   integrity sha512-FA5LmZVF1VziNc0bIdCSA1IoSVnDCqE8HJIZZv2/W8YmoAM50+tnUgJR/gQZwEeIMleuIOnRnHA/UaZRNeV4iQ==
@@ -1757,7 +1764,7 @@ mimic-fn@^2.1.0:
   resolved "https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-2.1.0.tgz#7ed2c2ccccaf84d3ffcb7a69b57711fc2083401b"
   integrity sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==
 
-mimic-response@^4.0.0:
+mimic-response@4.0.0, mimic-response@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/mimic-response/-/mimic-response-4.0.0.tgz#35468b19e7c75d10f5165ea25e75a5ceea7cf70f"
   integrity sha512-e5ISH9xMYU0DzrT+jl8q2ze9D6eWBto+I8CNpe+VI+K2J/F/k3PdkdTdz4wvGVH4NTpo+NRYTVIuMQEMMcsLqg==
@@ -1866,7 +1873,7 @@ nopt@^8.0.0:
   dependencies:
     abbrev "^3.0.0"
 
-normalize-url@^8.1.0:
+normalize-url@8.1.0:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-8.1.0.tgz#d33504f67970decf612946fd4880bc8c0983486d"
   integrity sha512-X06Mfd/5aKsRHc0O0J5CUedwnPmnDtLF2+nq+KN9KSDlJHkPuh0JUviWjEWMe0SW/9TDdSLVPuk7L5gGTIA1/w==
@@ -2062,7 +2069,7 @@ resolve-pkg-maps@^1.0.0:
   resolved "https://registry.yarnpkg.com/resolve-pkg-maps/-/resolve-pkg-maps-1.0.0.tgz#616b3dc2c57056b5588c31cdf4b3d64db133720f"
   integrity sha512-seS2Tj26TBVOC2NIc2rOe2y2ZO7efxITtLZcGSOnHHNOQ7CkiUBfw0Iw2ck6xkIhPwLhKNLS8BO+hEpngQlqzw==
 
-responselike@^4.0.2:
+responselike@4.0.2, responselike@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/responselike/-/responselike-4.0.2.tgz#d99a1105aeca5909c1e93156a839c7f3173e26c2"
   integrity sha512-cGk8IbWEAnaCpdAt1BHzJ3Ahz5ewDJa0KseTsE3qIRMJ3C698W8psM7byCeWVpd/Ha7FUYzuRVzXoKoM6nRUbA==
@@ -2363,12 +2370,12 @@ v8-compile-cache-lib@^3.0.1:
   resolved "https://registry.yarnpkg.com/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz#6336e8d71965cb3d35a1bbb7868445a7c05264bf"
   integrity sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==
 
-vercel@49.1.1:
-  version "49.1.1"
-  resolved "https://registry.yarnpkg.com/vercel/-/vercel-49.1.1.tgz#21e8bfde63d4f96294a9548145c55ac40d42fe87"
-  integrity sha512-dWvdrTc+hiMlT77mU3uyk2PBZ981ARKEq2FhoKp65CV0LOB0bBy9nq/JJTsKXGfVlFCifdm0Eik8MV1A+zI5wg==
+vercel@49.1.2:
+  version "49.1.2"
+  resolved "https://registry.yarnpkg.com/vercel/-/vercel-49.1.2.tgz#52a1cce27c8ecda5f3c9d3b542a47063c4993668"
+  integrity sha512-rJ6EFC3Vm0hx2pnPPjP+YtHCjAG4S44JWrKFZQPdAQnKWXkmpgg0bjjehUcgvnQ3iILE9KW+pnzJzVcstf8poA==
   dependencies:
-    "@vercel/backends" "0.0.15"
+    "@vercel/backends" "0.0.16"
     "@vercel/blob" "1.0.2"
     "@vercel/build-utils" "13.2.3"
     "@vercel/detect-agent" "1.0.0"
