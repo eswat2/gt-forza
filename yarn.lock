@@ -2345,10 +2345,10 @@ v8-compile-cache-lib@^3.0.1:
   resolved "https://registry.yarnpkg.com/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz#6336e8d71965cb3d35a1bbb7868445a7c05264bf"
   integrity sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==
 
-vercel@50.8.1:
-  version "50.8.1"
-  resolved "https://registry.yarnpkg.com/vercel/-/vercel-50.8.1.tgz#b000f5dfd032b782ff34f79634278ca30c4e9a85"
-  integrity sha512-SYQcx9yy+Jr0JjJIV1LwQ/dQFaRicp5Bqpw1QfRlZdTJVh5TVu3e+v3+YA3Cmol6jgh2NEdxunR0FacCJuNquQ==
+vercel@50.9.0:
+  version "50.9.0"
+  resolved "https://registry.yarnpkg.com/vercel/-/vercel-50.9.0.tgz#6b13081ce005def802e8c6b6a00fa7bc534fc53e"
+  integrity sha512-1j2G+q8ajKeuqfxAVDmA3Y79qlBRvQunE8AR/RHm8rQcY/lrsy82u1aY4S+Qj+XfA3QKkh0D54wSXbA3PupcvQ==
   dependencies:
     "@vercel/backends" "0.0.23"
     "@vercel/blob" "1.0.2"
