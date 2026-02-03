@@ -21,18 +21,23 @@
     "singleQuote": true
   },
   "scripts": {
+    "bump": "bumpp patch --yes",
+    "deploy-app": "vc --prod",
+    "release": "pnpm bump && pnpm build && pnpm deploy-app",
+    "preinstall": "npx only-allow pnpm",
     "dev": "env-cmd -x -- vc dev --listen 8182 --token \\$API_TOKEN",
     "cc": "prettier --check './**/*.js'",
     "spell": "cspell './**/*.js'",
     "test": "echo skipping...",
     "format": "prettier --write server.js cSpell.json",
-    "predeploy": "yarn version --patch",
-    "deploy": "vc --prod",
     "open": "open https://gt-forza.vercel.app/graphql"
   },
   "devDependencies": {
+    "bumpp": "10.4.0",
     "env-cmd": "11.0.0",
+    "only-allow": "1.2.2",
     "prettier": "3.8.1",
-    "vercel": "50.9.6"
+    "vercel": "50.10.0",
+    "yoctocolors": "2.1.2"
   }
 }
