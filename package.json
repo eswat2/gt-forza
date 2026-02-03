@@ -23,7 +23,7 @@
   "scripts": {
     "bump": "bumpp patch --yes",
     "deploy-app": "vc --prod",
-    "release": "pnpm bump && pnpm build && pnpm deploy-app",
+    "release": "pnpm bump && pnpm test && pnpm deploy-app",
     "preinstall": "npx only-allow pnpm",
     "dev": "env-cmd -x -- vc dev --listen 8182 --token \\$API_TOKEN",
     "cc": "prettier --check './**/*.js'",
