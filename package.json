@@ -3,6 +3,7 @@
   "version": "0.0.316",
   "description": "prototype - simple serverless GraphQL api with mock data...",
   "author": "eswat2",
+  "packageManager": "pnpm@10.28.2",
   "repository": "eswat2/gt-forza",
   "license": "MIT",
   "type": "module",
