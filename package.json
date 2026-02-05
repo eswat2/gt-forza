@@ -33,7 +33,7 @@
     "open": "open https://gt-forza.vercel.app/graphql"
   },
   "devDependencies": {
-    "bumpp": "10.4.0",
+    "bumpp": "10.4.1",
     "env-cmd": "11.0.0",
     "only-allow": "1.2.2",
     "prettier": "3.8.1",
