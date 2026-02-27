@@ -37,7 +37,7 @@
     "env-cmd": "11.0.0",
     "only-allow": "1.2.2",
     "prettier": "3.8.1",
-    "vercel": "50.23.2",
+    "vercel": "50.25.1",
     "yoctocolors": "2.1.2"
   }
 }
