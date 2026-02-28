@@ -31,8 +31,8 @@ importers:
         specifier: 3.8.1
         version: 3.8.1
       vercel:
-        specifier: 50.25.1
-        version: 50.25.1(typescript@5.9.3)
+        specifier: 50.25.4
+        version: 50.25.4(typescript@5.9.3)
       yoctocolors:
         specifier: 2.1.2
         version: 2.1.2
@@ -617,8 +617,8 @@ packages:
   '@vercel/python-analysis@0.8.1':
     resolution: {integrity: sha512-gW1pZDqJaTcjZYPvNhXXLOPgLu6vJW9PKweJoX2f8EKAoW+JIiYncl8AddcSlngNhQRG7SqUl2u3qosZM4kUBA==}
 
-  '@vercel/python@6.18.0':
-    resolution: {integrity: sha512-iZB+MhHQjcKHKLZnotkRaUiUZ2NAvu3t66pHkGz/bHm1dtZhwhj5LsYfy3ymDUEEvyfHp3YzrME0q/GAWn6GTw==}
+  '@vercel/python@6.19.0':
+    resolution: {integrity: sha512-As/ukwv6wBMpM37V5HEfuTX8TTixVjtuec4cD5RBCj1CJPDC6Lmbt/SMSNAlKOiiewww5TpniKelOV23EMMBrQ==}
 
   '@vercel/redwood@2.4.9':
     resolution: {integrity: sha512-U7bYIuWfMEFMIcKKbX7lTT8pFNjig9Q3vLeCYRYQUrKVP8xLoUBXSEfW3ijtWJBUV8GmbZCDI30A16uUfNhN+g==}
@@ -1453,8 +1453,8 @@ packages:
   proxy-from-env@1.1.0:
     resolution: {integrity: sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==}
 
-  pump@3.0.3:
-    resolution: {integrity: sha512-todwxLMY7/heScKmntwQG8CXVkWUOdYxIvY2s0VWAAMh/nd8SoYiRaKjlr7+iCs984f2P8zvrfWcDDYVb73NfA==}
+  pump@3.0.4:
+    resolution: {integrity: sha512-VS7sjc6KR7e1ukRFhQSY5LM2uBWAUPiOPa/A3mkKmiMwSmRFUITt0xuj+/lesgnCv+dPIEYlkzrcyXgquIHMcA==}
 
   punycode@2.3.1:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
@@ -1688,8 +1688,8 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
-  vercel@50.25.1:
-    resolution: {integrity: sha512-6lr3wi3AkDO5ELxu/BbPZEhUVNfnH0OL6UymEk4q+y/vDtGga9ljXKO8DULGC3wCcG5HRuDD7d540aSMkvJ7+w==}
+  vercel@50.25.4:
+    resolution: {integrity: sha512-fe8JlltG4ZQUssOWXMRGjj0GVr44TqW0PrUGSalIT4oYM/KdEU2hMY8gcuEOy5q1FxMmIn2IO2AzEduimxbF+A==}
     engines: {node: '>= 18'}
     hasBin: true
 
@@ -2309,7 +2309,7 @@ snapshots:
       smol-toml: 1.5.2
       zod: 3.22.4
 
-  '@vercel/python@6.18.0':
+  '@vercel/python@6.19.0':
     dependencies:
       '@vercel/python-analysis': 0.8.1
 
@@ -2761,7 +2761,7 @@ snapshots:
 
   get-stream@5.2.0:
     dependencies:
-      pump: 3.0.3
+      pump: 3.0.4
 
   get-stream@6.0.1: {}
 
@@ -3156,7 +3156,7 @@ snapshots:
 
   proxy-from-env@1.1.0: {}
 
-  pump@3.0.3:
+  pump@3.0.4:
     dependencies:
       end-of-stream: 1.4.5
       once: 1.4.0
@@ -3365,7 +3365,7 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  vercel@50.25.1(typescript@5.9.3):
+  vercel@50.25.4(typescript@5.9.3):
     dependencies:
       '@vercel/backends': 0.0.39(typescript@5.9.3)
       '@vercel/blob': 2.3.0
@@ -3383,7 +3383,7 @@ snapshots:
       '@vercel/nestjs': 0.2.46
       '@vercel/next': 4.15.36
       '@vercel/node': 5.6.9
-      '@vercel/python': 6.18.0
+      '@vercel/python': 6.19.0
       '@vercel/redwood': 2.4.9
       '@vercel/remix-builder': 5.6.0
       '@vercel/ruby': 2.3.2
