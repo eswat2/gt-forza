@@ -31,8 +31,8 @@ importers:
         specifier: 3.8.1
         version: 3.8.1
       vercel:
-        specifier: 50.32.2
-        version: 50.32.2(typescript@5.9.3)
+        specifier: 50.32.3
+        version: 50.32.3(typescript@5.9.3)
       yoctocolors:
         specifier: 2.1.2
         version: 2.1.2
@@ -617,8 +617,8 @@ packages:
   '@vercel/python-analysis@0.9.1':
     resolution: {integrity: sha512-ZwEi/F2DPxFPYmfjHFy7qM3+JTWRxD1EMpbIotNNhUyd/pnIG0wNt7S73RJSx62n1Y7pmFOFowoImnhULQgKvA==}
 
-  '@vercel/python@6.22.1':
-    resolution: {integrity: sha512-eYap2cfkDKI6QnZTmFNsDsCjPdwLAo/dOWjIi8lUC8x5FVDgSCvQtsb6SiJUKRBNnL4KLN3HxDeIBgVaCxCoBQ==}
+  '@vercel/python@6.23.0':
+    resolution: {integrity: sha512-P4cwbfk1zaVfX6obR3h+tEiuRIMX1cHyqmOlsbi9CBrHsxEbw45rtvXQLe29MErzUKO90kzbnQ4NbVQ8d4jt0g==}
 
   '@vercel/redwood@2.4.10':
     resolution: {integrity: sha512-7C5lUn9g9kLm1KpX55b8iizVPOB6087+kVyQyKyXGk8bbkYySL26yb+LIwyL/7mXwHlq/JTC0AxVdC3nNmPZuw==}
@@ -1688,8 +1688,8 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
-  vercel@50.32.2:
-    resolution: {integrity: sha512-0aWjPNAl+8UWz2R/i2FojktPZT4poUmYb4/I6l2Pg8J+AMB2x+ibTXePI07J4w6p5B0PJJQgMpXW03JHVwr7OQ==}
+  vercel@50.32.3:
+    resolution: {integrity: sha512-3ZYaLqS3smkTDR2NT7w7UV9FdYaynXBYN/4PwDuMz9qRSdQX5dAPnnMpux1NN3QP/H9oV0+DxIKyEXbHqbe/Cg==}
     engines: {node: '>= 18'}
     hasBin: true
 
@@ -2309,7 +2309,7 @@ snapshots:
       smol-toml: 1.5.2
       zod: 3.22.4
 
-  '@vercel/python@6.22.1':
+  '@vercel/python@6.23.0':
     dependencies:
       '@vercel/python-analysis': 0.9.1
 
@@ -3365,7 +3365,7 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  vercel@50.32.2(typescript@5.9.3):
+  vercel@50.32.3(typescript@5.9.3):
     dependencies:
       '@vercel/backends': 0.0.45(typescript@5.9.3)
       '@vercel/blob': 2.3.0
@@ -3383,7 +3383,7 @@ snapshots:
       '@vercel/nestjs': 0.2.52
       '@vercel/next': 4.16.1
       '@vercel/node': 5.6.15
-      '@vercel/python': 6.22.1
+      '@vercel/python': 6.23.0
       '@vercel/redwood': 2.4.10
       '@vercel/remix-builder': 5.7.0
       '@vercel/ruby': 2.3.2
