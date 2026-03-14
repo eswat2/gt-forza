@@ -21,7 +21,7 @@
     "singleQuote": true
   },
   "scripts": {
-    "bump": "bumpp patch --yes",
+    "bump": "bumpp --release 'patch' -c -t -p",
     "deploy-app": "vc --prod",
     "release": "pnpm bump && pnpm test && pnpm deploy-app",
     "preinstall": "npx only-allow pnpm",
@@ -33,7 +33,7 @@
     "open": "open https://gt-forza.vercel.app/graphql"
   },
   "devDependencies": {
-    "bumpp": "10.4.1",
+    "bumpp": "11.0.0",
     "env-cmd": "11.0.0",
     "only-allow": "1.2.2",
     "prettier": "3.8.1",
