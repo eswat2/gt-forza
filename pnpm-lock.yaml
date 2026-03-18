@@ -31,8 +31,8 @@ importers:
         specifier: 3.8.1
         version: 3.8.1
       vercel:
-        specifier: 50.33.0
-        version: 50.33.0(typescript@5.9.3)
+        specifier: 50.33.1
+        version: 50.33.1(typescript@5.9.3)
       yoctocolors:
         specifier: 2.1.2
         version: 2.1.2
@@ -539,8 +539,8 @@ packages:
   '@types/node@20.11.0':
     resolution: {integrity: sha512-o9bjXmDNcF7GbM4CNQpmi+TutCgap/K3w1JyKgxAjqx41zp9qlIAVFi0IhCNsJcXolEqLWhbFbEeL0PvYm4pcQ==}
 
-  '@vercel/backends@0.0.46':
-    resolution: {integrity: sha512-M+HILuTuluDSqz87fF/Qop0+pHSTodlorcIXNlfqpXRASaKhQQ4qhKrNJpse4WSdZCaIhLu3tf9MpBgjJJJFIQ==}
+  '@vercel/backends@0.0.47':
+    resolution: {integrity: sha512-0vPF8xcnypLfIf2SY/BF37jTFcwUKd4OFUjAdvhuntIUmQPYxAKNzVPNg4ftkcOhKPjqKcNQKlE0hpDXIcAV9g==}
     peerDependencies:
       typescript: ^4.0.0 || ^5.0.0
 
@@ -551,8 +551,8 @@ packages:
   '@vercel/build-utils@13.8.1':
     resolution: {integrity: sha512-FTz29f8NvUA9SiAT9yIkd3O5cAcRD+aA9s9nnYkxRbQ50zjI6DCNDjluL0ggsbeQk/VgfSysWKQnb6STNGl82A==}
 
-  '@vercel/cervel@0.0.33':
-    resolution: {integrity: sha512-x807V7lOfsJ5CsucDVwwkW5CFFpADPjzbsWInwTBY5dS/s8nVfIX9mfyuUM6CsA9233jtSleJkkuzDXN4LYfAw==}
+  '@vercel/cervel@0.0.34':
+    resolution: {integrity: sha512-pGKEdb47hSI6RrzwYeaF4R8C5XymyLZfjlLcKTgAmovg381UXuC5IxI5xLD0BoeO4VfqA5PALp6arMy58u+D9w==}
     hasBin: true
     peerDependencies:
       typescript: ^4.0.0 || ^5.0.0
@@ -567,8 +567,8 @@ packages:
   '@vercel/error-utils@2.0.3':
     resolution: {integrity: sha512-CqC01WZxbLUxoiVdh9B/poPbNpY9U+tO1N9oWHwTl5YAZxcqXmmWJ8KNMFItJCUUWdY3J3xv8LvAuQv2KZ5YdQ==}
 
-  '@vercel/express@0.1.58':
-    resolution: {integrity: sha512-KWgdzVn+C7uJGGulS9e5xib9mky9tPSlnPfEVwDw3+q72eQIHg/zH9Dve64tTIEX+3hM0o+06OPQiwjwY1hJ3Q==}
+  '@vercel/express@0.1.59':
+    resolution: {integrity: sha512-6ibrik2/4qX6wK+voXODgOhDe6GJ8QwyD2TtXztVN0bqO5j0IEzeQ5vb+L7+X8s/jbXR1umpgfaPSnnNpU8mYg==}
 
   '@vercel/fastify@0.1.52':
     resolution: {integrity: sha512-haz/+fYx/xTWEfD+r+F8b+V2PVf0JqPttfTwFxOWlnRvHhCcXKBzCGy4qm4Xmsg4sdVKfH/T0BcKGcn95m233w==}
@@ -1623,8 +1623,8 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
-  vercel@50.33.0:
-    resolution: {integrity: sha512-X6RgkixF1LtAPkfo1t46V0TyV0gypQXlqZdZoXqNWYL0sVDm7b8lPHwut7pD6FxgQ3N2QnJPbPLqo3Mg41yuXQ==}
+  vercel@50.33.1:
+    resolution: {integrity: sha512-sUwp5A18dr6Bbp5qsK16qQJA8u3FH20pA6hXTBY6Nom33Ky9ABgVxRxwG4pAGBj/uu1oqFhf0cvnn+FzTlHHlw==}
     engines: {node: '>= 18'}
     hasBin: true
 
@@ -2000,7 +2000,7 @@ snapshots:
     dependencies:
       undici-types: 5.26.5
 
-  '@vercel/backends@0.0.46(typescript@5.9.3)':
+  '@vercel/backends@0.0.47(typescript@5.9.3)':
     dependencies:
       '@vercel/build-utils': 13.8.1
       '@vercel/nft': 1.3.0
@@ -2031,9 +2031,9 @@ snapshots:
     dependencies:
       '@vercel/python-analysis': 0.10.0
 
-  '@vercel/cervel@0.0.33(typescript@5.9.3)':
+  '@vercel/cervel@0.0.34(typescript@5.9.3)':
     dependencies:
-      '@vercel/backends': 0.0.46(typescript@5.9.3)
+      '@vercel/backends': 0.0.47(typescript@5.9.3)
       typescript: 5.9.3
     transitivePeerDependencies:
       - encoding
@@ -2053,9 +2053,9 @@ snapshots:
 
   '@vercel/error-utils@2.0.3': {}
 
-  '@vercel/express@0.1.58(typescript@5.9.3)':
+  '@vercel/express@0.1.59(typescript@5.9.3)':
     dependencies:
-      '@vercel/cervel': 0.0.33(typescript@5.9.3)
+      '@vercel/cervel': 0.0.34(typescript@5.9.3)
       '@vercel/nft': 1.1.1
       '@vercel/node': 5.6.16
       '@vercel/static-config': 3.2.0
@@ -3235,14 +3235,14 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  vercel@50.33.0(typescript@5.9.3):
+  vercel@50.33.1(typescript@5.9.3):
     dependencies:
-      '@vercel/backends': 0.0.46(typescript@5.9.3)
+      '@vercel/backends': 0.0.47(typescript@5.9.3)
       '@vercel/blob': 2.3.0
       '@vercel/build-utils': 13.8.1
       '@vercel/detect-agent': 1.2.1
       '@vercel/elysia': 0.1.49
-      '@vercel/express': 0.1.58(typescript@5.9.3)
+      '@vercel/express': 0.1.59(typescript@5.9.3)
       '@vercel/fastify': 0.1.52
       '@vercel/fun': 1.3.0
       '@vercel/go': 3.4.5
