@@ -31,8 +31,8 @@ importers:
         specifier: 3.8.1
         version: 3.8.1
       vercel:
-        specifier: 50.38.3
-        version: 50.38.3(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(typescript@5.9.3)
+        specifier: 50.39.0
+        version: 50.39.0(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(typescript@5.9.3)
       yoctocolors:
         specifier: 2.1.2
         version: 2.1.2
@@ -1632,8 +1632,8 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
-  vercel@50.38.3:
-    resolution: {integrity: sha512-2CqV6W6liER6D84ZTk/LfkZhS147kHp0tYS89JYOX2FfbZj8f3tqMfOw4/u/imBq0ZS2Go8OdOkh+3UsXj/lHA==}
+  vercel@50.39.0:
+    resolution: {integrity: sha512-deebCT+MFZgkixKmX4k2eQJkDUzw2RAfBRs2yxMuK6t+wrO7LNGdy3GVn8qq4zQ14T+tOZrehZvtUsdxp6czcg==}
     engines: {node: '>= 18'}
     hasBin: true
 
@@ -3253,7 +3253,7 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  vercel@50.38.3(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(typescript@5.9.3):
+  vercel@50.39.0(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(typescript@5.9.3):
     dependencies:
       '@vercel/backends': 0.0.55(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(typescript@5.9.3)
       '@vercel/blob': 2.3.0
