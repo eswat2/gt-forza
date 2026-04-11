@@ -1,6 +1,6 @@
 {
   "name": "gt-forza",
-  "version": "0.0.370",
+  "version": "0.0.371",
   "description": "prototype - simple serverless GraphQL api with mock data...",
   "author": "eswat2",
   "repository": "eswat2/gt-forza",
