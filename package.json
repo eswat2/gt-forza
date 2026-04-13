@@ -10,7 +10,7 @@
     "node": ">=18"
   },
   "dependencies": {
-    "got": "15.0.1",
+    "got": "15.0.2",
     "graphql": "16.13.2",
     "graphql-http": "1.22.4"
   },
@@ -37,7 +37,7 @@
     "env-cmd": "11.0.0",
     "only-allow": "1.2.2",
     "prettier": "3.8.2",
-    "vercel": "50.44.0",
+    "vercel": "51.1.0",
     "yoctocolors": "2.1.2"
   }
 }
