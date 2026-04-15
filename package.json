@@ -36,8 +36,8 @@
     "bumpp": "11.0.1",
     "env-cmd": "11.0.0",
     "only-allow": "1.2.2",
-    "prettier": "3.8.2",
-    "vercel": "51.2.1",
+    "prettier": "3.8.3",
+    "vercel": "51.3.0",
     "yoctocolors": "2.1.2"
   }
 }
