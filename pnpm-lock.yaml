@@ -31,8 +31,8 @@ importers:
         specifier: 3.8.3
         version: 3.8.3
       vercel:
-        specifier: 51.4.0
-        version: 51.4.0(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(typescript@5.9.3)
+        specifier: 51.5.0
+        version: 51.5.0(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(typescript@5.9.3)
       yoctocolors:
         specifier: 2.1.2
         version: 2.1.2
@@ -622,8 +622,8 @@ packages:
   '@vercel/python-analysis@0.11.0':
     resolution: {integrity: sha512-gsoj+nscmNm0xDh+tRhECRhit2VlAVaD7jc9h93sN6rDEBDxPo7eLEgIJFzVDaAItxERZ9Od2IK/04fB9vFy+g==}
 
-  '@vercel/python@6.33.0':
-    resolution: {integrity: sha512-n9x0bs1oHFyG/IOcAnuGRhOqZ4M82a0pqzZZOL6RvuCYDwUwjokX2kj4hxTtnAkDjtzgFnXaUzz/kIkoAdguMA==}
+  '@vercel/python@6.33.1':
+    resolution: {integrity: sha512-QY0YtUc6K5EXqH+0Am6xUEIiFpx3m6Vi+Mq0QJeIBm6vYMmDbGX4LN8R4POAAcbqb91DNYVFotRi9ThnswJzrw==}
 
   '@vercel/redwood@2.4.12':
     resolution: {integrity: sha512-8kJ7eEerI4iMpKVRxQCsnxiIwRVsWtyirEbYb4erCqqsJymTu/xrjhsfAUuzeP8qkuYGP82MJVK+hpKlFtsjGw==}
@@ -634,8 +634,8 @@ packages:
   '@vercel/ruby@2.3.2':
     resolution: {integrity: sha512-okIgMmPEePyDR9TZYaKM4oftcxVHM5Dbdl7V/tIdh3lq8MGLi7HR5vvQglmZUwZOeovE6MVtezxl960EOzeIiQ==}
 
-  '@vercel/rust@1.1.0':
-    resolution: {integrity: sha512-dgiLWA3l+4IFk1jg65aABfmRqO2eJdk6vZsNvONhD8Lkpn8i1WrGJ0ggVjD7I/MR9rNxSs4zyfIgpKYv5FFqWw==}
+  '@vercel/rust@1.1.1':
+    resolution: {integrity: sha512-y6GYEQ8ltRRD8JNmSt0kWars7IMKjm1Nv26rFgl9wWVFqe5UeAvAHohiTX7D6W0Yowx6v+BnR3czeoVHwQvEMg==}
 
   '@vercel/sandbox@1.9.0':
     resolution: {integrity: sha512-zgr1ad0tkT1xZn/8Vxo60wOUOLqMAVGo4WqJQ8/UDcUtWynNJsBjI2tiMdWZrAo9EKH1MIqEzJNkcclF0UT1EQ==}
@@ -726,8 +726,8 @@ packages:
       bare-abort-controller:
         optional: true
 
-  basic-ftp@5.2.2:
-    resolution: {integrity: sha512-1tDrzKsdCg70WGvbFss/ulVAxupNauGnOlgpyjKzeQxzyllBLS0CGLV7tjIXTK3ZQA9/FBEm9qyFFN1bciA6pw==}
+  basic-ftp@5.3.0:
+    resolution: {integrity: sha512-5K9eNNn7ywHPsYnFwjKgYH8Hf8B5emh7JKcPaVjjrMJFQQwGpwowEnZNEtHs7DfR7hCZsmaK3VA4HUK0YarT+w==}
     engines: {node: '>=10.0.0'}
 
   bindings@1.5.0:
@@ -1684,8 +1684,8 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
-  vercel@51.4.0:
-    resolution: {integrity: sha512-rwTYp6EkNueLDxmBEfMy8iN5hRZe0tZE7ETrKT4rihIQ5Rj90bIujb4KwtGiEEJ7RBS/Xt9sw0yX/4NraEkklA==}
+  vercel@51.5.0:
+    resolution: {integrity: sha512-E4IiMKIkTXwEyj8PJuVSrobSsY+B7dL84Tbgnn78EYLeM+LkaQegZsmJfrAs/IhGSE8NSAaplo9s7CSDDc1mVQ==}
     engines: {node: '>= 18'}
     hasBin: true
 
@@ -2311,7 +2311,7 @@ snapshots:
       smol-toml: 1.5.2
       zod: 3.22.4
 
-  '@vercel/python@6.33.0':
+  '@vercel/python@6.33.1':
     dependencies:
       '@vercel/python-analysis': 0.11.0
 
@@ -2341,7 +2341,7 @@ snapshots:
 
   '@vercel/ruby@2.3.2': {}
 
-  '@vercel/rust@1.1.0':
+  '@vercel/rust@1.1.1':
     dependencies:
       execa: 5.1.1
       smol-toml: 1.5.2
@@ -2425,7 +2425,7 @@ snapshots:
 
   bare-events@2.8.2: {}
 
-  basic-ftp@5.2.2: {}
+  basic-ftp@5.3.0: {}
 
   bindings@1.5.0:
     dependencies:
@@ -2766,7 +2766,7 @@ snapshots:
 
   get-uri@6.0.5:
     dependencies:
-      basic-ftp: 5.2.2
+      basic-ftp: 5.3.0
       data-uri-to-buffer: 6.0.2
       debug: 4.4.3
     transitivePeerDependencies:
@@ -3380,7 +3380,7 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  vercel@51.4.0(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(typescript@5.9.3):
+  vercel@51.5.0(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(typescript@5.9.3):
     dependencies:
       '@vercel/backends': 0.0.62(@emnapi/core@1.9.1)(@emnapi/runtime@1.9.1)(typescript@5.9.3)
       '@vercel/blob': 2.3.0
@@ -3399,11 +3399,11 @@ snapshots:
       '@vercel/next': 4.16.8
       '@vercel/node': 5.7.7
       '@vercel/prepare-flags-definitions': 0.2.1
-      '@vercel/python': 6.33.0
+      '@vercel/python': 6.33.1
       '@vercel/redwood': 2.4.12
       '@vercel/remix-builder': 5.7.2
       '@vercel/ruby': 2.3.2
-      '@vercel/rust': 1.1.0
+      '@vercel/rust': 1.1.1
       '@vercel/static-build': 2.9.15
       chokidar: 4.0.0
       esbuild: 0.27.0
