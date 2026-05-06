@@ -9,6 +9,7 @@
   "engines": {
     "node": ">=18"
   },
+  "packageManager": "pnpm@10.33.4",
   "dependencies": {
     "got": "15.0.5",
     "graphql": "16.14.0",
