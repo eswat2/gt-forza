@@ -9,7 +9,7 @@
   "engines": {
     "node": ">=18"
   },
-  "packageManager": "pnpm@10.33.4",
+  "packageManager": "pnpm@11.0.8+sha512.4c4097e1dd2d42372c4e7fa5a791ff28fc75a484c7ac192e64b1df0fdef17594ba982f9b4fed9adfb3c757846f565b799b2763fb3733d1de1bcb82cf46684912",
   "dependencies": {
     "got": "15.0.5",
     "graphql": "16.14.0",
@@ -26,6 +26,7 @@
     "deploy-app": "vc --prod",
     "release": "pnpm bump && pnpm test && pnpm deploy-app",
     "preinstall": "npx only-allow pnpm",
+    "build": "echo --skip",
     "dev": "env-cmd -x -- vc dev --listen 8182 --token \\$API_TOKEN",
     "cc": "prettier --check './**/*.js'",
     "spell": "cspell './**/*.js'",
@@ -34,7 +35,7 @@
     "open": "open https://gt-forza.vercel.app/graphql"
   },
   "devDependencies": {
-    "bumpp": "11.0.1",
+    "bumpp": "11.1.0",
     "env-cmd": "11.0.0",
     "only-allow": "1.2.2",
     "prettier": "3.8.3",
