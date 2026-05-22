@@ -18,7 +18,8 @@ minimumReleaseAgeExclude:
   - '@vercel/hono@0.2.83'
   - '@vercel/koa@0.1.63'
   - '@vercel/nestjs@0.2.84'
+  - '@vercel/next@4.17.4'
   - '@vercel/node@5.8.4'
   - '@vercel/python@6.43.1'
   - '@vercel/static-build@2.9.30'
-  - vercel@54.4.0
+  - vercel@54.4.1
