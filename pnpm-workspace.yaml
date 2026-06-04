@@ -7,19 +7,21 @@ allowBuilds:
   'proto-tailwindcss-clrs': true
 
 minimumReleaseAgeExclude:
-  - '@vercel/backends@0.8.4'
-  - '@vercel/build-utils@13.26.5'
-  - '@vercel/cervel@0.1.12'
-  - '@vercel/elysia@0.1.85'
-  - '@vercel/express@0.1.95'
-  - '@vercel/fastify@0.1.88'
-  - '@vercel/gatsby-plugin-vercel-builder@2.2.11'
-  - '@vercel/h3@0.1.94'
-  - '@vercel/hono@0.2.88'
-  - '@vercel/koa@0.1.68'
-  - '@vercel/nestjs@0.2.89'
-  - '@vercel/node@5.8.9'
-  - '@vercel/remix-builder@5.8.5'
-  - '@vercel/static-build@2.9.34'
-  - graphql@16.14.1
-  - vercel@54.7.1
+  - '@vercel/backends@0.8.6'
+  - '@vercel/build-utils@13.27.0'
+  - '@vercel/cervel@0.1.14'
+  - '@vercel/cli-auth@0.3.0'
+  - '@vercel/cli-config@0.2.0'
+  - '@vercel/elysia@0.1.87'
+  - '@vercel/error-utils@2.2.0'
+  - '@vercel/express@0.1.97'
+  - '@vercel/fastify@0.1.90'
+  - '@vercel/gatsby-plugin-vercel-builder@2.2.13'
+  - '@vercel/h3@0.1.96'
+  - '@vercel/hono@0.2.90'
+  - '@vercel/koa@0.1.70'
+  - '@vercel/nestjs@0.2.91'
+  - '@vercel/node@5.8.11'
+  - '@vercel/remix-builder@5.8.6'
+  - '@vercel/static-build@2.9.36'
+  - vercel@54.9.0
