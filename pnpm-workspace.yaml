@@ -7,7 +7,5 @@ allowBuilds:
   'proto-tailwindcss-clrs': true
 
 minimumReleaseAgeExclude:
-  - '@vercel/backends@0.8.14'
-  - '@vercel/cervel@0.1.22'
-  - '@vercel/express@0.1.105'
-  - vercel@54.13.0
+  - '@vercel/python@6.45.0'
+  - vercel@54.14.0
