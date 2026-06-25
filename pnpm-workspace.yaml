@@ -20,7 +20,7 @@ minimumReleaseAgeExclude:
   - '@vercel/hono@0.2.100'
   - '@vercel/koa@0.1.80'
   - '@vercel/nestjs@0.2.101'
-  - '@vercel/next@4.20.0'
+  - '@vercel/next@4.20.1'
   - '@vercel/node@5.8.21'
   - '@vercel/static-build@2.11.3'
-  - vercel@54.17.0
+  - vercel@54.17.1
