@@ -15,11 +15,13 @@ minimumReleaseAgeExclude:
   - '@vercel/express@0.1.109'
   - '@vercel/fastify@0.1.100'
   - '@vercel/gatsby-plugin-vercel-builder@2.2.23'
+  - '@vercel/go@3.10.1'
   - '@vercel/h3@0.1.106'
   - '@vercel/hono@0.2.100'
   - '@vercel/koa@0.1.80'
   - '@vercel/nestjs@0.2.101'
   - '@vercel/next@4.20.1'
   - '@vercel/node@5.8.21'
+  - '@vercel/python@6.47.2'
   - '@vercel/static-build@2.11.3'
-  - vercel@54.17.2
+  - vercel@54.17.3
