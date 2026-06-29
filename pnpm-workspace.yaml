@@ -7,5 +7,7 @@ allowBuilds:
   'proto-tailwindcss-clrs': true
 
 minimumReleaseAgeExclude:
+  - '@vercel/container@0.0.4'
+  - '@vercel/next@4.20.2'
   - prettier@3.9.3
-  - vercel@54.18.2
+  - vercel@54.18.3
