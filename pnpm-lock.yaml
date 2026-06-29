@@ -28,11 +28,11 @@ importers:
         specifier: 1.2.2
         version: 1.2.2
       prettier:
-        specifier: 3.9.1
-        version: 3.9.1
+        specifier: 3.9.3
+        version: 3.9.3
       vercel:
-        specifier: 54.18.1
-        version: 54.18.1(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)
+        specifier: 54.18.2
+        version: 54.18.2(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)
       yoctocolors:
         specifier: 2.1.2
         version: 2.1.2
@@ -1443,8 +1443,8 @@ packages:
     resolution: {integrity: sha512-QP88BAKvMam/3NxH6vj2o21R6MjxZUAd6nlwAS/pnGvN9IVLocLHxGYIzFhg6fUQ+5th6P4dv4eW9jX3DSIj7A==}
     engines: {node: '>=12'}
 
-  prettier@3.9.1:
-    resolution: {integrity: sha512-ppiDo2CSwexck1eyZUwJHg/N3nf1+6IRCv7W/VJ5vaLnVCmB7+3CdRfMwoCHBBX6xTrREDTksZ4OZl5SSf4zXA==}
+  prettier@3.9.3:
+    resolution: {integrity: sha512-HWmu+K+zvHNpaMfSnYeqdqrDbR16cuIXaPx8WoHaviQkDJh1/0BNtOZmHVQI5jc3wXv0H1yXc9wjvFdXh+n3hQ==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -1617,8 +1617,8 @@ packages:
   tar-stream@3.1.7:
     resolution: {integrity: sha512-qJj60CXt7IU1Ffyc3NJMjh6EkuCFej46zUqJ4J7pqYlThyd9bO0XBTmcOIhSzZJVWfsLks0+nle/j538YAW9RQ==}
 
-  tar@7.5.17:
-    resolution: {integrity: sha512-wPEBwzapC+2PaTYPH6e2L+cNOEE227S47wUYFqlegcs8zlLLmeb9Fcff1HVZY4Fwku/1Eyv38n7GYwB2aaS71g==}
+  tar@7.5.19:
+    resolution: {integrity: sha512-4LeEWl96twnS2Q7Bz4MGqgazLqO+hJN63GZxXoIqh1T3VweYD997gbU1ItNsQafqqXTXd5WFyFdReLtwvRBNiw==}
     engines: {node: '>=18'}
 
   tar@7.5.7:
@@ -1729,8 +1729,8 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
-  vercel@54.18.1:
-    resolution: {integrity: sha512-Fik3RIUAV0LfbkOyjc6vhDn+ZCW5jKx0qNO5uKtUhXVjYSMWTKR8bOHvT47PKp5rAy/v2WYmhUz91Gw2Y4Z7IA==}
+  vercel@54.18.2:
+    resolution: {integrity: sha512-EVSDjUzbNJXJwpEdBVh4U2qnCEZK3PlCBrRO7Vq/HvyoATI2dKXLZszpBKoKAvySodAbwPJQ9aPYZh4K0kNVsw==}
     engines: {node: '>= 18'}
     hasBin: true
 
@@ -1939,7 +1939,7 @@ snapshots:
       node-fetch: 2.7.0
       nopt: 8.1.0
       semver: 7.8.5
-      tar: 7.5.17
+      tar: 7.5.19
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -3152,7 +3152,7 @@ snapshots:
 
   picomatch@4.0.4: {}
 
-  prettier@3.9.1: {}
+  prettier@3.9.3: {}
 
   pretty-ms@7.0.1:
     dependencies:
@@ -3332,7 +3332,7 @@ snapshots:
       - bare-abort-controller
       - react-native-b4a
 
-  tar@7.5.17:
+  tar@7.5.19:
     dependencies:
       '@isaacs/fs-minipass': 4.0.1
       chownr: 3.0.0
@@ -3440,7 +3440,7 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  vercel@54.18.1(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1):
+  vercel@54.18.2(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1):
     dependencies:
       '@vercel/backends': 0.8.20(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)
       '@vercel/blob': 2.4.0
