@@ -28,11 +28,11 @@ importers:
         specifier: 1.2.2
         version: 1.2.2
       prettier:
-        specifier: 3.9.3
-        version: 3.9.3
+        specifier: 3.9.4
+        version: 3.9.4
       vercel:
-        specifier: 54.18.4
-        version: 54.18.4(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)
+        specifier: 54.18.6
+        version: 54.18.6(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)
       yoctocolors:
         specifier: 2.1.2
         version: 2.1.2
@@ -620,8 +620,8 @@ packages:
   '@types/node@20.11.0':
     resolution: {integrity: sha512-o9bjXmDNcF7GbM4CNQpmi+TutCgap/K3w1JyKgxAjqx41zp9qlIAVFi0IhCNsJcXolEqLWhbFbEeL0PvYm4pcQ==}
 
-  '@vercel/backends@0.8.20':
-    resolution: {integrity: sha512-zAWL6X+ZwNrDzecTDBekcUvHH0NoHfFzyun/o4QjsuLVu1MTzyYs5vpubHP405+SbpCXoruZfssgYzzmLZOtcg==}
+  '@vercel/backends@0.8.21':
+    resolution: {integrity: sha512-c0mKXgfxMyb44+kMGbNoQJomf37QAfd6yL/2imhAnAChR1Ddkxk6uwbrOC89LcG+QmN2ZoEFUSJdMInSfreztw==}
 
   '@vercel/blob@2.4.0':
     resolution: {integrity: sha512-ncQ8CRb6XoEAYJwjOTRGpACRT6h/AeY+/33gLyeVxG5BIes27OPm1jmqreF+JHjcTmGhClTP+kBpmyLfbV0xew==}
@@ -630,8 +630,8 @@ packages:
   '@vercel/build-utils@13.32.2':
     resolution: {integrity: sha512-XgATgMjt2NHF6HHo1wii6f43qlWjaFx3o+9L7aOUPLQgqwgYp2BGwuuBjg8U6sNgut1QsmFBMvNqTAUBvack9Q==}
 
-  '@vercel/cervel@0.1.28':
-    resolution: {integrity: sha512-ISPxpP0X9nxoQZ9kWeLRx+c1nCe0EEzSTVwEQ19MjKUXSP2RYGqInq8V993N4VkQ8jfWmnOC0Kf3C0Nw516i8w==}
+  '@vercel/cervel@0.1.29':
+    resolution: {integrity: sha512-tjwW6bj1g9qwOO0y/3WTGiarvyWmsWOtLkPB0esFmnscMZCxRqzNh0WJqrbbWxMdC5A2LXzDDHuZ4sXpRg4Tqw==}
     hasBin: true
 
   '@vercel/cli-auth@0.3.0':
@@ -653,8 +653,8 @@ packages:
   '@vercel/error-utils@2.2.0':
     resolution: {integrity: sha512-WFWiRxfPzoYWYifaj4thSKvAaZZwUOqD4k5GINRIgZgCiS2E3iAJbWbIsIZmkQdTecWFHcWGA6q48CjisgpOBA==}
 
-  '@vercel/express@0.1.111':
-    resolution: {integrity: sha512-lyLDvmMbca2H0pKMsW/tau3FsbpTlIlMe+JeNWLeL/T0znF4JpT4YFak/pUKwomW+v7UTKR7BTujPrsiYxqA8g==}
+  '@vercel/express@0.1.112':
+    resolution: {integrity: sha512-Xpw1/+G/NpWYzBh3HqT+npYKo+yrLhSKC+hekBYCoddfDjSTevF1hQSbdEo7oHbZbgQo7h5Rb2vWVQ404zSmkA==}
 
   '@vercel/fastify@0.1.101':
     resolution: {integrity: sha512-+oUCBpSs8ANQmdQB6CTCWTfdxKutCzKEMkMtUJVLVnO0eaiONADkZeaFjjZwMl4Cg6z49ifhJ3QVJD1IWwIwsA==}
@@ -822,8 +822,8 @@ packages:
   brace-expansion@1.1.15:
     resolution: {integrity: sha512-EwOCDEex4quD37XhqM3omwtMoJjr//isUZz1JopUNWms+4Z2ViyM/k1YIRePpoVNnQhENnxtFjLaxNHrT7xIUg==}
 
-  brace-expansion@5.0.6:
-    resolution: {integrity: sha512-kLpxurY4Z4r9sgMsyG0Z9uzsBlgiU/EFKhj/h91/8yHu0edo7XuixOIH3VcJ8kkxs6/jPzoI6U9Vj3WqbMQ94g==}
+  brace-expansion@5.0.7:
+    resolution: {integrity: sha512-7oFy703dxfY3/NLxC1fh2SUCQ0H9rmAY+5EpDVfXjUTTs+HEwR2nYaqLv+GWcTsumwxPfiz6CzCNkwXwBUwqCA==}
     engines: {node: 18 || 20 || >=22}
 
   braces@3.0.3:
@@ -1443,8 +1443,8 @@ packages:
     resolution: {integrity: sha512-QP88BAKvMam/3NxH6vj2o21R6MjxZUAd6nlwAS/pnGvN9IVLocLHxGYIzFhg6fUQ+5th6P4dv4eW9jX3DSIj7A==}
     engines: {node: '>=12'}
 
-  prettier@3.9.3:
-    resolution: {integrity: sha512-HWmu+K+zvHNpaMfSnYeqdqrDbR16cuIXaPx8WoHaviQkDJh1/0BNtOZmHVQI5jc3wXv0H1yXc9wjvFdXh+n3hQ==}
+  prettier@3.9.4:
+    resolution: {integrity: sha512-yWG/o/4oJfo036EKAfK6ACAoDOfHeRHx4tuxkfBZiauURiaSmYwlpOr5LQqKtIkRD2z1PLteme2WoxEnj4tHTg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -1729,8 +1729,8 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
-  vercel@54.18.4:
-    resolution: {integrity: sha512-gwjOVU7cWZmWsZp2hF1dVeocGAfrZQyAR8kmRA7yWNoRgYLhDT465GZmJlFCq/BzvGXp2VUuhZBX7O0KgWaNjQ==}
+  vercel@54.18.6:
+    resolution: {integrity: sha512-0rpxXpEtYvpyqzV80VHDSWw2r+KopWCUkPF43JY2TWKGCbi3Kh0Cdnt2vZFXAqLFHSGS83hnS0S/RHptQcyELQ==}
     engines: {node: '>= 18'}
     hasBin: true
 
@@ -2171,10 +2171,11 @@ snapshots:
     dependencies:
       undici-types: 5.26.5
 
-  '@vercel/backends@0.8.20(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)':
+  '@vercel/backends@0.8.21(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)':
     dependencies:
       '@vercel/build-utils': 13.32.2
       '@vercel/nft': 1.10.0
+      '@vercel/static-config': 3.4.0
       execa: 3.2.0
       fs-extra: 11.1.0
       get-port: 5.1.1
@@ -2183,6 +2184,7 @@ snapshots:
       resolve.exports: 2.0.3
       rolldown: 1.0.0-rc.1(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)
       srvx: 0.11.16
+      ts-morph: 12.0.0
       tsx: 4.21.0
       zod: 3.22.4
     transitivePeerDependencies:
@@ -2206,9 +2208,9 @@ snapshots:
       cjs-module-lexer: 1.2.3
       es-module-lexer: 1.5.0
 
-  '@vercel/cervel@0.1.28(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)':
+  '@vercel/cervel@0.1.29(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)':
     dependencies:
-      '@vercel/backends': 0.8.20(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)
+      '@vercel/backends': 0.8.21(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)
     transitivePeerDependencies:
       - '@emnapi/core'
       - '@emnapi/runtime'
@@ -2244,9 +2246,9 @@ snapshots:
 
   '@vercel/error-utils@2.2.0': {}
 
-  '@vercel/express@0.1.111(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)':
+  '@vercel/express@0.1.112(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)':
     dependencies:
-      '@vercel/cervel': 0.1.28(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)
+      '@vercel/cervel': 0.1.29(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)
       '@vercel/nft': 1.10.0
       '@vercel/node': 5.8.22
       '@vercel/static-config': 3.4.0
@@ -2551,7 +2553,7 @@ snapshots:
       balanced-match: 1.0.2
       concat-map: 0.0.1
 
-  brace-expansion@5.0.6:
+  brace-expansion@5.0.7:
     dependencies:
       balanced-match: 4.0.4
 
@@ -3003,7 +3005,7 @@ snapshots:
 
   minimatch@10.2.5:
     dependencies:
-      brace-expansion: 5.0.6
+      brace-expansion: 5.0.7
 
   minimatch@3.1.5:
     dependencies:
@@ -3152,7 +3154,7 @@ snapshots:
 
   picomatch@4.0.4: {}
 
-  prettier@3.9.3: {}
+  prettier@3.9.4: {}
 
   pretty-ms@7.0.1:
     dependencies:
@@ -3440,9 +3442,9 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  vercel@54.18.4(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1):
+  vercel@54.18.6(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1):
     dependencies:
-      '@vercel/backends': 0.8.20(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)
+      '@vercel/backends': 0.8.21(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)
       '@vercel/blob': 2.4.0
       '@vercel/build-utils': 13.32.2
       '@vercel/cli-auth': 0.3.0
@@ -3450,7 +3452,7 @@ snapshots:
       '@vercel/container': 0.0.4
       '@vercel/detect-agent': 1.2.3
       '@vercel/elysia': 0.1.98
-      '@vercel/express': 0.1.111(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)
+      '@vercel/express': 0.1.112(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.1)
       '@vercel/fastify': 0.1.101
       '@vercel/fun': 1.3.0
       '@vercel/go': 3.10.2
