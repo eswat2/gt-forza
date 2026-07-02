@@ -8,4 +8,5 @@ allowBuilds:
 
 minimumReleaseAgeExclude:
   - '@vercel/rust@1.4.0'
+  - got@15.1.0
   - vercel@54.18.7
