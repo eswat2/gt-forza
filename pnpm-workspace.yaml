@@ -8,4 +8,4 @@ allowBuilds:
 
 minimumReleaseAgeExclude:
   - graphql@17.0.2
-  - vercel@54.20.0
+  - vercel@54.20.1
