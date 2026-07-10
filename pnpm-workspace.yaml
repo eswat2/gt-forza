@@ -7,6 +7,21 @@ allowBuilds:
   'proto-tailwindcss-clrs': true
 
 minimumReleaseAgeExclude:
-  - '@vercel/next@4.20.3'
-  - '@vercel/python@6.48.0'
-  - vercel@54.21.1
+  - '@vercel/backends@0.8.22'
+  - '@vercel/build-utils@13.32.3'
+  - '@vercel/cervel@0.1.30'
+  - '@vercel/container@0.0.5'
+  - '@vercel/elysia@0.1.99'
+  - '@vercel/express@0.1.113'
+  - '@vercel/fastify@0.1.102'
+  - '@vercel/gatsby-plugin-vercel-builder@2.2.25'
+  - '@vercel/h3@0.1.108'
+  - '@vercel/hono@0.2.102'
+  - '@vercel/koa@0.1.82'
+  - '@vercel/nestjs@0.2.103'
+  - '@vercel/next@4.20.4'
+  - '@vercel/node@5.8.23'
+  - '@vercel/python@6.49.0'
+  - '@vercel/static-build@2.11.5'
+  - prettier@3.9.5
+  - vercel@55.0.0
