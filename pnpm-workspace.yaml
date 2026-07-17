@@ -21,4 +21,4 @@ minimumReleaseAgeExclude:
   - '@vercel/node@5.8.26'
   - '@vercel/python@6.51.0'
   - '@vercel/static-build@2.11.8'
-  - vercel@56.3.0
+  - vercel@56.3.1
