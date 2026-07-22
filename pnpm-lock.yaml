@@ -31,8 +31,8 @@ importers:
         specifier: 3.9.6
         version: 3.9.6
       vercel:
-        specifier: 56.4.1
-        version: 56.4.1
+        specifier: 56.5.0
+        version: 56.5.0
       yoctocolors:
         specifier: 2.1.2
         version: 2.1.2
@@ -694,8 +694,8 @@ packages:
     resolution: {integrity: sha512-wrAwOeXp1RRMFfQY8Sy7VaGVmPocaLwSFOYCGKSyo8qmJ+/yaafCl5BCA1IQZWqFSRBrKDYFeR9d/VyQzfH/jg==}
     engines: {node: '>= 6.0'}
 
-  package-manager-detector@1.7.0:
-    resolution: {integrity: sha512-xg1eHpwYL/D/HEdWw2goFZP6vV0FH7W+PZ5rFkGjdIDLtxq7EkzBUeT3m+lndYCt8wKbmofUu1MUdMCXkCk9ZQ==}
+  package-manager-detector@1.8.0:
+    resolution: {integrity: sha512-yQA4H19AmPEoMUeavPMDIe1higySl/gH/yaQrkT/s07Qp+7pp2hYz30N3z2l5BkjVkF9Ow6o0wjJamm2y7Sn0A==}
 
   path-key@3.1.1:
     resolution: {integrity: sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q==}
@@ -871,8 +871,8 @@ packages:
     resolution: {integrity: sha512-pjy2bYhSsufwWlKwPc+l3cN7+wuJlK6uz0YdJEOlQDbl6jo/YlPi4mb8agUkVC8BF7V8NuzeyPNqRksA3hztKQ==}
     engines: {node: '>= 0.8'}
 
-  vercel@56.4.1:
-    resolution: {integrity: sha512-+CIEa0qcKm1RNBRhOvpo2l/yz28LMKSDuGeAYGx4/EkYyR5VOrXJZYV52WvqVARcxBAbH3Un2RRin8YGXMlcNg==}
+  vercel@56.5.0:
+    resolution: {integrity: sha512-wAKpT8DFSbnwlgbS711fbvxGjOfQeb1n+NcaBaSC4onq9eJAjbPfERrjrKE4GDsV8dkoBo0627lp0QxbLCGFiw==}
     engines: {node: '>= 18'}
     hasBin: true
     peerDependencies:
@@ -889,7 +889,7 @@ packages:
       '@vercel/nestjs': 0.2.106
       '@vercel/next': 4.20.4
       '@vercel/node': 5.8.26
-      '@vercel/python': 6.51.0
+      '@vercel/python': 6.51.1
       '@vercel/redwood': 2.5.0
       '@vercel/remix-builder': 5.9.1
       '@vercel/ruby': 2.5.1
@@ -1292,7 +1292,7 @@ snapshots:
       args-tokenizer: 0.3.0
       cac: 7.0.0
       jsonc-parser: 3.3.1
-      package-manager-detector: 1.7.0
+      package-manager-detector: 1.8.0
       tinyexec: 1.2.4
       tinyglobby: 0.2.17
       unconfig: 7.5.0
@@ -1565,7 +1565,7 @@ snapshots:
 
   os-paths@4.4.0: {}
 
-  package-manager-detector@1.7.0: {}
+  package-manager-detector@1.8.0: {}
 
   path-key@3.1.1: {}
 
@@ -1730,7 +1730,7 @@ snapshots:
 
   unpipe@1.0.0: {}
 
-  vercel@56.4.1:
+  vercel@56.5.0:
     dependencies:
       '@vercel/blob': 2.4.0
       '@vercel/build-utils': 13.34.0

@@ -7,6 +7,4 @@ allowBuilds:
   'proto-tailwindcss-clrs': true
 
 minimumReleaseAgeExclude:
-  - bumpp@12.0.0
-  - prettier@3.9.6
-  - vercel@56.4.1
+  - vercel@56.5.0
