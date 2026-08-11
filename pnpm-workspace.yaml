@@ -26,8 +26,8 @@ minimumReleaseAgeExclude:
   - '@vercel/python@6.56.1'
   - '@vercel/remix-builder@5.9.3'
   - '@vercel/static-build@2.12.5'
-  - '@vercel/vc-native-darwin-arm64@58.9.2'
-  - '@vercel/vc-native-darwin-x64@58.9.2'
-  - '@vercel/vc-native-linux-arm64@58.9.2'
-  - '@vercel/vc-native-linux-x64@58.9.2'
-  - vercel@58.9.2
+  - '@vercel/vc-native-darwin-arm64@58.9.3'
+  - '@vercel/vc-native-darwin-x64@58.9.3'
+  - '@vercel/vc-native-linux-arm64@58.9.3'
+  - '@vercel/vc-native-linux-x64@58.9.3'
+  - vercel@58.9.3
