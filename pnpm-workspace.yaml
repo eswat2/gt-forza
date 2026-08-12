@@ -11,6 +11,7 @@ minimumReleaseAgeExclude:
   - '@vercel/build-utils@14.0.5'
   - '@vercel/cervel@0.1.44'
   - '@vercel/cli-auth@0.3.4'
+  - '@vercel/container@0.2.0'
   - '@vercel/detect-agent@1.2.5'
   - '@vercel/elysia@0.1.113'
   - '@vercel/express@0.1.127'
@@ -26,8 +27,8 @@ minimumReleaseAgeExclude:
   - '@vercel/python@6.56.1'
   - '@vercel/remix-builder@5.9.4'
   - '@vercel/static-build@2.12.5'
-  - '@vercel/vc-native-darwin-arm64@58.9.4'
-  - '@vercel/vc-native-darwin-x64@58.9.4'
-  - '@vercel/vc-native-linux-arm64@58.9.4'
-  - '@vercel/vc-native-linux-x64@58.9.4'
-  - vercel@58.9.4
+  - '@vercel/vc-native-darwin-arm64@58.9.5'
+  - '@vercel/vc-native-darwin-x64@58.9.5'
+  - '@vercel/vc-native-linux-arm64@58.9.5'
+  - '@vercel/vc-native-linux-x64@58.9.5'
+  - vercel@58.9.5
