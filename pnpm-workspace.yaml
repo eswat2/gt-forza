@@ -7,8 +7,27 @@ allowBuilds:
   'proto-tailwindcss-clrs': true
 
 minimumReleaseAgeExclude:
-  - '@vercel/vc-native-darwin-arm64@59.1.4'
-  - '@vercel/vc-native-darwin-x64@59.1.4'
-  - '@vercel/vc-native-linux-arm64@59.1.4'
-  - '@vercel/vc-native-linux-x64@59.1.4'
-  - vercel@59.1.4
+  - '@vercel/backends@0.8.39'
+  - '@vercel/build-utils@14.2.0'
+  - '@vercel/cervel@0.1.47'
+  - '@vercel/cli-auth@0.3.5'
+  - '@vercel/cli-config@0.2.4'
+  - '@vercel/elysia@0.1.116'
+  - '@vercel/express@0.1.130'
+  - '@vercel/fastify@0.1.119'
+  - '@vercel/gatsby-plugin-vercel-builder@2.2.42'
+  - '@vercel/h3@0.1.125'
+  - '@vercel/hono@0.2.119'
+  - '@vercel/koa@0.1.99'
+  - '@vercel/nestjs@0.2.120'
+  - '@vercel/next@4.21.7'
+  - '@vercel/node@5.10.2'
+  - '@vercel/python-analysis@0.14.0'
+  - '@vercel/python@6.58.0'
+  - '@vercel/rust@1.5.0'
+  - '@vercel/static-build@2.12.8'
+  - '@vercel/vc-native-darwin-arm64@59.3.0'
+  - '@vercel/vc-native-darwin-x64@59.3.0'
+  - '@vercel/vc-native-linux-arm64@59.3.0'
+  - '@vercel/vc-native-linux-x64@59.3.0'
+  - vercel@59.3.0
