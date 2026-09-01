@@ -1,6 +1,6 @@
 {
   "name": "gt-forza",
-  "version": "0.0.494",
+  "version": "0.0.495",
   "description": "prototype - simple serverless GraphQL api with mock data...",
   "author": "eswat2",
   "repository": "eswat2/gt-forza",
@@ -9,7 +9,6 @@
   "engines": {
     "node": ">=18"
   },
-  "packageManager": "pnpm@11.25.0+sha512.5cde925b4f075f725eb71fbae18a42ffe784524789f19b61c731cb8721ec28aaee160e01a8d5af4fedb2a42cdbf300efe23db356b0d4a17b4d63e11f8ab7c956",
   "dependencies": {
     "got": "16.0.0",
     "graphql": "17.0.2",
