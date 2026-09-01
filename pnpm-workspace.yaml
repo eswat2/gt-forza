@@ -1,11 +1,5 @@
-packages:
-  - 'apps/*'
-  - 'packages/*'
-
 allowBuilds:
-  'esbuild': true
-  'proto-tailwindcss-clrs': true
-
+  esbuild: true
 minimumReleaseAgeExclude:
   - '@vercel/backends@7.0.0'
   - '@vercel/build-utils@14.9.0'
