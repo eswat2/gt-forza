@@ -23,7 +23,6 @@
   },
   "scripts": {
     "bump": "bumpp patch --commit --tag --push --yes",
-    "deploy-app": "vc --prod",
     "release": "pnpm test && pnpm bump",
     "preinstall": "npx only-allow pnpm",
     "build": "echo --skip",
