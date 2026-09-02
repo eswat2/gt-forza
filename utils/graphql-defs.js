@@ -112,7 +112,7 @@ const resolvers = {
   },
   uuid: ({ count }) => {
     return promiseApi(API_HOST, 'uuid', { count })
-  },  
+  },
 }
 
 export { schema, resolvers }
