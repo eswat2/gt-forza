@@ -35,7 +35,7 @@
     "preflight": "[ -z \"$(git status --porcelain)\" ] || { echo \"ERROR: working tree is dirty - commit or ignore files before releasing\"; exit 1; }"
   },
   "devDependencies": {
-    "bumpp": "12.2.2",
+    "bumpp": "12.3.0",
     "env-cmd": "11.0.0",
     "only-allow": "1.2.2",
     "prettier": "3.9.6",
