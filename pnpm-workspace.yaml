@@ -11,11 +11,11 @@ minimumReleaseAgeExclude:
   - '@vercel/cli-config@0.2.7'
   - '@vercel/container@8.2.0'
   - '@vercel/next@12.0.2'
-  - '@vercel/vc-native-darwin-arm64@59.19.1'
-  - '@vercel/vc-native-darwin-x64@59.19.1'
-  - '@vercel/vc-native-linux-arm64@59.19.1'
-  - '@vercel/vc-native-linux-x64@59.19.1'
-  - '@vercel/vc-native-win32-arm64@59.19.1'
-  - '@vercel/vc-native-win32-x64@59.19.1'
+  - '@vercel/vc-native-darwin-arm64@59.20.0'
+  - '@vercel/vc-native-darwin-x64@59.20.0'
+  - '@vercel/vc-native-linux-arm64@59.20.0'
+  - '@vercel/vc-native-linux-x64@59.20.0'
+  - '@vercel/vc-native-win32-arm64@59.20.0'
+  - '@vercel/vc-native-win32-x64@59.20.0'
   - prettier@3.9.7
-  - vercel@59.19.1
+  - vercel@59.20.0
