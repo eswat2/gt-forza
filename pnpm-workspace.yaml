@@ -7,13 +7,14 @@ allowBuilds:
   'proto-tailwindcss-clrs': true
 
 minimumReleaseAgeExclude:
-  - '@vercel/container@8.2.1'
-  - '@vercel/python@14.1.1'
-  - '@vercel/vc-native-darwin-arm64@59.22.0'
-  - '@vercel/vc-native-darwin-x64@59.22.0'
-  - '@vercel/vc-native-linux-arm64@59.22.0'
-  - '@vercel/vc-native-linux-x64@59.22.0'
-  - '@vercel/vc-native-win32-arm64@59.22.0'
-  - '@vercel/vc-native-win32-x64@59.22.0'
+  - '@vercel/container@8.2.2'
+  - '@vercel/next@12.0.3'
+  - '@vercel/python@14.2.0'
+  - '@vercel/vc-native-darwin-arm64@59.23.1'
+  - '@vercel/vc-native-darwin-x64@59.23.1'
+  - '@vercel/vc-native-linux-arm64@59.23.1'
+  - '@vercel/vc-native-linux-x64@59.23.1'
+  - '@vercel/vc-native-win32-arm64@59.23.1'
+  - '@vercel/vc-native-win32-x64@59.23.1'
   - prettier@3.9.8
-  - vercel@59.22.0
+  - vercel@59.23.1
