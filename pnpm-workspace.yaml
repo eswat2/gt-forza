@@ -4,7 +4,7 @@ packages:
 
 allowBuilds:
   'esbuild': true
-  koffi: set this to true or false
+  'koffi': true
   'proto-tailwindcss-clrs': true
 
 minimumReleaseAgeExclude:
