@@ -39,4 +39,5 @@ minimumReleaseAgeExclude:
   - '@vercel/vc-native-linux-arm64@65.8.0'
   - '@vercel/vc-native-linux-x64-musl@65.8.0'
   - '@vercel/vc-native-linux-x64@65.8.0'
+  - got@16.2.0
   - vercel@65.8.0

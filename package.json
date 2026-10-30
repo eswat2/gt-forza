@@ -11,7 +11,7 @@
     "node": ">=24"
   },
   "dependencies": {
-    "got": "16.1.0",
+    "got": "16.2.0",
     "graphql": "17.0.2",
     "graphql-http": "1.23.1"
   },
