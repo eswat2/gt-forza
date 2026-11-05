@@ -8,13 +8,4 @@ allowBuilds:
   'proto-tailwindcss-clrs': true
 
 minimumReleaseAgeExclude:
-  - '@vercel/cli-support@65.11.0'
-  - '@vercel/vc-native-darwin-arm64@65.11.0'
-  - '@vercel/vc-native-darwin-x64@65.11.0'
-  - '@vercel/vc-native-linux-arm64-musl@65.11.0'
-  - '@vercel/vc-native-linux-arm64@65.11.0'
-  - '@vercel/vc-native-linux-x64-musl@65.11.0'
-  - '@vercel/vc-native-linux-x64@65.11.0'
-  - '@vercel/vc-native-win32-arm64@65.11.0'
-  - '@vercel/vc-native-win32-x64@65.11.0'
-  - vercel@65.11.0
+  - graphql@17.1.0
