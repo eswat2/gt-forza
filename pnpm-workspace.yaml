@@ -8,4 +8,6 @@ allowBuilds:
   'proto-tailwindcss-clrs': true
 
 minimumReleaseAgeExclude:
-  - prettier@3.10.1
+  - '@vercel/vc-native-linux-arm64@65.15.0'
+  - '@vercel/vc-native-linux-x64@65.15.0'
+  - vercel@65.15.0
