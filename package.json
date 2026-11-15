@@ -6,7 +6,6 @@
   "repository": "eswat2/gt-forza",
   "license": "MIT",
   "type": "module",
-  "packageManager": "pnpm@12.18.0",
   "engines": {
     "node": ">=24"
   },
